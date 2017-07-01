@@ -1,0 +1,108 @@
+Option: You can watch these video tutorials:
+  https://www.youtube.com/watch?v=xuB1Id2Wxak
+  https://www.youtube.com/watch?v=SWYqp7iY_Tc
+  Learn Git in 20 Minutes
+  https://www.youtube.com/watch?v=Y9XZQO1n_7c
+
+Download git from:
+  git-scm.com
+
+git default editor setting:
+  ~/.linuxbrew/.git/config
+  In [core]section, add:
+    editor=vim
+
+git Bash:
+  mkdir App
+  cd App
+    git init
+    touch index.html app.js
+    (then edit the 2 files)
+
+global config:
+  git config --global user.name 'losacii'
+  git config --global user.email 'me@gmail.com'
+
+Add:
+  git add <filename>
+  or
+    git add .
+  or 
+    git add *.txt
+
+Commit:
+  git commit
+
+git status:
+  git status
+
+Ignore files and dirs:
+  touch .gitignore log.txt
+  then write 'log.txt' into .gitignore first line;
+
+  git add.
+  git status
+
+git Brach:
+  git branch login
+  (go branch login) git checkout login
+  touch login.html
+  (edit login.html, just simple altering it)
+  git add.
+  git commit -m 'Added Login'
+  (then use 'git checkout **', and 'dir', you will see file system are 
+   different)
+
+Merge:
+  (git checkout masger)
+  git merge login
+
+github.com:
+  (New repository ...)
+  (you will see some cmdlines:
+    git init
+    git add README.md
+    git commit -m 'Added README'
+    git remote add origin https://github.com/losacii/myAppSample.git
+    gut push -u grigin master)
+    (tpye them in your App dir)
+
+In App dir:
+  git remote add origin https://github.com/losacii/myAppSample.git
+  git push -u origin master
+  (input username and passwd)
+
+Pull or Push:
+  Pull:
+    git clone <url>
+    or
+      (go to App dir)
+      git pull
+
+Jump the passwd:
+  cd /
+  git config --global credential.helper store
+  cat ~/.gitconfig
+  (you will see:
+    [user]
+        name = losacii
+        email = losacii5@gmail.com
+    [credential]
+        helper = store  )
+  git push (again)
+  (input passwd, and you won't do it again from now on)
+
+Reset Remote ssh push&pull:
+  git remote rm origin
+  git remote add origin git@github.com:username/repository.git
+  git push -u origin master
+
+  (the you can use
+  'git remote -v'
+  to see infos)
+
+
+
+
+
+  
