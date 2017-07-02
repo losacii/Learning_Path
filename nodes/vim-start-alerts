@@ -1,0 +1,13 @@
+E319: Sorry, the command is not available in this version: filetype on
+
+
+https://askubuntu.com/questions/284957/vi-getting-multiple-sorry-the-command-is-not-available-in-this-version-af
+
+
+For me I had to install vim.nox-py2:
+  
+  aptitude install vim-nox-py2
+  and use update-alternatives to activate it:
+
+  update-alternatives --config vim
+  select the number corresponding to vim.nox-py2.

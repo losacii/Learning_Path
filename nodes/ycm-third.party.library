@@ -1,0 +1,21 @@
+
+Search: vim youcompleteme third-party library
+https://github.com/Valloric/YouCompleteMe/issues/940
+
+Adding ctags for a 3rd party library
+
+losacii@U1604:~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm$ sudo vim .ycm_extra_conf.py
+
+===> problem solved:
+    "YouCompleteMe
+    set completeopt-=preview
+
+    let g:ycm_global_ycm_extra_conf='~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+    let g:ycm_python_binary_path = '/usr/bin/python2.7'
+    let g:ycm_auto_trigger = 1
+    let g:ycm_min_num_of_chars_for_completion = 2
+    let g:loaded_python_provider = 1
+
+    let g:ycm_global_ycm_extra_conf='~/.vim/ycm_extra_conf.py'
+    let g:ycm_confirm_extra_conf=0
+

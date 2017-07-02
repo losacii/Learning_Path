@@ -1,0 +1,10 @@
+To indent 5 lines, 5>>
+
+To mark a block of lines and indent it, Vjj> to indent 3 lines (vim only). 
+
+To indent a curly-braces block, 
+put your cursor on one of the curly braces and use >%.
+
+If you’re copying blocks of text around and need to align the indent of a block in its new location, use ]p instead of just p. This aligns the pasted block with the surrounding text.
+
+Also, the shiftwidth setting allows you to control how many spaces to indent.

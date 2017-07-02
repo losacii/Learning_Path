@@ -1,0 +1,6 @@
+find these lines and change the differences:
+  let g:ycm_auto_trigger = 1
+  let g:ycm_min_num_of_chars_for_completion = 0
+
+Why it doesn't prompt cv2.***?
+  ...
