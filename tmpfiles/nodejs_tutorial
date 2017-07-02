@@ -1,0 +1,57 @@
+  Insert
+  Normal
+  Command
+
+i - Enter insert mode at cursor
+I - Insert left
+A - append right
+
+s - delete under cursor and insert
+S - delete line and insert (cc)
+o - insert under
+O - insert above
+C - delete to end line
+
+d c y
+i a
+w [ ( " '
+
+yw - copy word
+yiw - copy in word
+yaw - copy word_
+bcw, ciw 
+
+H M L
+^Y ^E ^F ^B
+
+w, W, b, B, e, E (word BEGIN and END)
+
+3fx, 3Fx, 3tx, 3Tx 
+
+/searchWord, n, N (search forward)
+?searchWord, n, N (search backward)
+/.*Word
+
+* forward
+g* forward-unbounded
+#  backward
+g# backward-unbounded
+n
+N
+
+
+
+
+
+u, C-r
+
+yw, yiw, yaw, 3yw, 3yW, 3yy
+
+
+
+
+
+The crazy fox jumped over the lazy dog.
+The crazy fox jumped over the lazy dog.
+The, crazy, fox jumped over the lazy dog.
+

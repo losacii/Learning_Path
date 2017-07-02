@@ -1,0 +1,36 @@
+ 15 a - all
+ 16 i - in
+ 17 t - till
+ 18 f - find forward
+ 19 F - find backword
+ 20 
+ 21 d - delete (also cut)
+ 22 c - change (delete, then into instert mode)
+ 23 y - yank(copy)
+ 24 v - visually select
+ 25 
+ 26 diw - delete in word
+ 27 daw - delete word in all
+ 28 di[  da[
+ 29 
+ 30 cw caw ciw
+ 31 dw dd de d0
+ 32 
+ 33 
+ 34 dtx, dfx
+ 35 
+ 36 yiw yaw yi( ya(
+ 37 yw ye ytx y$  y0
+ 38 
+ 39 
+ 40 "The crazy for jumped over the lazy dog."
+ 41 va"  vi"
+ 42 y - yank
+ 43 
+ 44 .
+ 45 operations between ESC and ESC, is recorded;
+ 46 the hit dot to repeat it.
+ 47 Cool, eh?
+ 48 
+ 49 
+

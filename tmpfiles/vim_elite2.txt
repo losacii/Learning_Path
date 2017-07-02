@@ -1,0 +1,69 @@
+h j k l H M L gg G
+
+w b e
+
+^E ^Y ^F ^B
+
+ESC - normal mode
+
+a i s - insert mode
+
+x r
+
+You are programmers. Strive to be lazy.
+
+a - all
+i - in
+t - till
+f - find forward
+F - find backword
+
+d - delete (also cut)
+c - change (delete, then into instert mode)
+y - yank(copy)
+v - visually select
+
+diw - delete in word
+daw - delete word in all
+di[  da[
+
+cw caw ciw
+dw dd de d0 
+
+
+dtx, dfx
+
+yiw yaw yi( ya(
+yw ye ytx y$  y0
+
+
+"The crazy for jumped over the lazy dog."
+va"  vi"
+y - yank
+
+.
+operations between ESC and ESC, is recorded;
+the hit dot to repeat it.
+Cool, eh?
+
+dd yy (delete or copy the current line)
+the p to paste it.
+
+p - paste below line.
+P - paste above line.
+
+D / C - for current line.
+
+I / A - instert before / after. (Insert / Append)
+
+o / O
+
+
+
+
+u  ^R
+
+number gg
+
+:w vim_elite.txt
+

@@ -1,0 +1,1002 @@
+losacii@U1604:~$ history
+  628  ssh pi@192.168.1.100
+  629  sudo shutdown now
+  630  ssh pi@192.168.1.100
+  631  ipython 
+  632  ssh pi@192.168.1.100
+  633  sudo aptitude
+  634  ipython 
+  635  sudo apt-get install python-pyaudio
+  636  ssh pi@192.168.1.100
+  637  sudo vi /etc/apt/sources.list
+  638  cd /etc/apt/
+  639  sudo chmod 777 sources.list
+  640  ls
+  641  sudo vim sources.list
+  642  sudo vim sources.list\
+  643  sudo vim sources.list
+  644  sudo apt-get update 
+  645  ls -h
+  646  sudo rm sources.list.back sources.list.bak sources.list.d sources.list.save
+  647  ls
+  648  cd sources.list.d/
+  649  l
+  650  ls
+  651  sudo apt-get update 
+  652  sudo apt-get upgrade 
+  653  cd
+  654  vimtutor 
+  655  ssh pi@192.168.1.100
+  656  vim
+  657  ssh pi@192.168.1.100
+  658  exit
+  659  ipconfig
+  660  ifconfig
+  661  ping 203.93.170.249
+  662  ping 203.93.170.248
+  663  yum
+  664  sudo apt install yum
+  665  cd /etc/apt
+  666  ls
+  667  sudo rm -rf sources.list.d
+  668  ls
+  669  sudo apt install yum
+  670  ping 192.168.20.244
+  671  vim sources.list 
+  672  sudo vim sources.list 
+  673  sudo rm .sources.list.swp 
+  674  sudo vim sources.list 
+  675  sudo apt-get update
+  676  sudo apt-get -f update
+  677  cd
+  678  cd /var/lib/dpkg/
+  679  ls
+  680  sudo mv info
+  681  sudo mv info info.bak
+  682  sudo mkdir info
+  683  sudo apt-get install yum
+  684  cd
+  685  sudo vim /etc/gai.conf 
+  686  sudo apt-get install yum
+  687  sudo vim /etc/gai.conf 
+  688  sudo apt-get autoremove xchat-gnome-common
+  689  cd /etc/apt/
+  690  sudo vim sources.list 
+  691  ifconfig
+  692  sudo apt-get update
+  693  sudo apt-get upgrade 
+  694  sudo apt-get update --fix-missing 
+  695  sudo apt-get upgrade 
+  696  sudo reboot 
+  697  sudo vim /etc/resolvconf/resolv.conf.d/base
+  698  sudo resolvconf -u
+  699  cat /etc/resolv.conf 
+  700  sudo vim /etc/resolv.conf 
+  701  sudo apt-get update
+  702  cd /var/lib/apt/lists/partial/
+  703  ls
+  704  cd Downloads/
+  705  ls
+  706  cd
+  707  cd /var/lib/apt/lists/
+  708  ls
+  709  sudo rm -rf partial/
+  710  sudo mkdir partial/
+  711  sudo apt-get update 
+  712  sudo apt-get update
+  713  sudo apt-get upgrade 
+  714  echo $http_proxy 
+  715  git config
+  716  sudo apt install git
+  717  cd ~/
+  718  ls
+  719  cat .bashrc 
+  720  sudo vim /etc/apt/apt.conf
+  721  sudo apt-get install yum
+  722  sudo vim ~/.bashrc 
+  723  sudo vim /etc/apt/apt.conf
+  724  sudo vim /etc/environment 
+  725  sudo apt-get install yum
+  726  yum
+  727  ssh pi@192.168.1.100
+  728  sudo shutdown now
+  729  ssh pi@192.168.1.100
+  730  sudo shutdown now
+  731  sudo apt-get install openssh-server 
+  732  ifconfig
+  733  ps -e | grep ssh
+  734  sudo /etc/init.d/ssh restart
+  735  ls
+  736  sudo reboot
+  737  cd Documents/
+  738  ls
+  739  mkdir pydocs
+  740  ls
+  741  cd pydocs/
+  742  vim test.py
+  743  python test.py 
+  744  vim test.py
+  745  python test.py 
+  746  vim test.py
+  747  python test.py 
+  748  vim test.py
+  749  python test.py 
+  750  vim test.py
+  751  python test.py 
+  752  vim test.py
+  753  python test.py 
+  754  vim test.py
+  755  python test.py 
+  756  vim test.py
+  757  python test.py 
+  758  [A
+  759  python test.py 
+  760  vim test.py
+  761  python test.py 
+  762  vim test.py
+  763  python test.py 
+  764  vim test.py
+  765  pip
+  766  pip install pyttsx
+  767  sudo pip install pyttsx
+  768  vim pyttsxtest.py
+  769  python pyttsxtest.py 
+  770  vim pyttsxtest.py 
+  771  python pyttsxtest.py 
+  772  vim pyttsxtest.py 
+  773  python pyttsxtest.py 
+  774  vim pyttsxtest.py 
+  775  python pyttsxtest.py 
+  776  vim pyttsxtest.py 
+  777  cd Documents/pydocs/
+  778  ls
+  779  sudo gedit pyttsxtest.py 
+  780  python pyttsxtest.py 
+  781  ls
+  782  gedit test.py 
+  783  python test.py 
+  784  pytho test.py 
+  785  python test.py 
+  786  python pyttsxtest.py 
+  787  cd
+  788  ssh pi@192.168.1.100
+  789  cd Documents/pydocs/
+  790  python test.py 
+  791  python pyttsxtest.py 
+  792  ls
+  793  sudo
+  794  sudo ls
+  795  ls
+  796  sudo shutdown now
+  797  sudo ls
+  798  ls
+  799  sudo shutdown now
+  800  sudo gedit /etc/host
+  801  cd /etc
+  802  ls
+  803  sudo gedit hosts
+  804  vim words_temp
+  805  sudo unzip windows用批处理.zip 
+  806  sudo ls
+  807  ls
+  808  cd Documents/
+  809  cat words_temp 
+  810  sudo shutdown now
+  811  sudo ls
+  812  ls
+  813  sudo shutdown now
+  814  vim
+  815  sudo ls
+  816  ls
+  817  cat python_send_text_amail.py 
+  818  python python_send_text_amail.py 
+  819  cat python_send_text_amail.py 
+  820  shutdown now
+  821  sudo shutdown now
+  822  ping 126.cm
+  823  ping 126.com
+  824  date
+  825  ping 126.com
+  826  ifconfig
+  827  ping 192.168.20.176'
+  828  ping 192.168.20.176
+  829  ifconfig
+  830  ping 192.168.20.176
+  831  ifconfig
+  832  ping 192.168.20.176
+  833  ifconfig
+  834  ping 192.168.20.176
+  835  ifconfig
+  836  ping 192.168.20.176
+  837  cd Documents/pydocs/
+  838  ls
+  839  ping 192.168.1.100
+  840  ssh pi@192.168.1.100
+  841  cd 
+  842  ssh pi@192.168.1.100
+  843  sudo ssh pi@192.168.1.100
+  844  ssh pi@192.168.1.100
+  845  ipython 
+  846  sudo ls
+  847  sudo ssh pi@192.168.1.100
+  848  sudo ls
+  849  sudo shutdown now
+  850  ifconfig
+  851  ping 192.168.20.176
+  852  ping 192.168.20.254
+  853  sudo ls
+  854  sudo shutdown now
+  855  ping 126.com
+  856  ls
+  857  ping 126.com
+  858  sudo apt-get update 
+  859  sudo apt-get upgrade 
+  860  ls
+  861  sudo ls
+  862  ls
+  863  sudo ls
+  864  sudo shutdown now
+  865  ssh pi@192.168.1.112
+  866  sudo ls
+  867  shdu
+  868  sudo shutdown now
+  869  ipython 
+  870  ping 192.168.1.112
+  871  ssh pi@192.168.1.112
+  872  sudu ls
+  873  sudo ls
+  874  sudo shutdown now
+  875  sudo ls
+  876  ls
+  877  sudo shutdown now
+  878  sudo ls
+  879  sudo shutdown nkw
+  880  sudo shutdown now
+  881  ping 192.168.1.17
+  882  ping 192.168.1.176
+  883  ping 192.168.20.176
+  884  sudo ls
+  885  sudo shutdown now
+  886  sudo ls
+  887  sudo shutdown now
+  888  sudo ls
+  889  sudo shutdown 4
+  890  sudo ls
+  891  sudo shutdown now
+  892  sudo ls
+  893  sudo shutdown 5
+  894  sudo ls
+  895  sudo reboot 
+  896  ping 126.com
+  897  ping 192.168.20.176
+  898  sudo ls
+  899  sudo apt-get update 
+  900  ls
+  901  sudo ls
+  902  sudo reboot 
+  903  ping 192.168.20.176
+  904  sudo shutdown 3
+  905  ping 192.168.20.6
+  906  ping 192.168.20.10
+  907  sudo ls
+  908  sudo shutdown 2
+  909  vim Ben_Affreck.txt
+  910  ping 126.com
+  911  ping 192.168.20.1
+  912  ping 192.168.20.10
+  913  ping 192.168.20.6
+  914  ping 192.168.20.10
+  915  sudo ls
+  916  sudo shutdown 5
+  917  sudu ls
+  918  sudo ls
+  919  sudo shutdown now
+  920  sudo ls
+  921  sudo shutdown now
+  922  ping yg.txlink.win
+  923  ping 192.168.20.25
+  924  ls
+  925  sudo reboot 
+  926  sudo ls
+  927  sudo shutdown 9
+  928  ls
+  929  sudo vim config.txt 
+  930  sudo shutdown now
+  931  ping 192.168.20.20
+  932  ping 192.168.20.21
+  933  ping 192.168.20.22
+  934  ping 192.168.20.23
+  935  ping 192.168.20.1
+  936  ping 192.168.20.2
+  937  ping 192.168.20.22
+  938  ping 192.168.20.21
+  939  ping 192.168.20.23
+  940  ping 192.168.20.24
+  941  ping 192.168.20.25
+  942  ping 192.168.20.26
+  943  ping 192.168.20.27
+  944  nmap
+  945  sudo apt install nmap
+  946  nmap -sP 192.168.20.2/254
+  947  nmap -PU 192.168.20.0/24
+  948  cat
+  949  nmap -sP 192.168.20.0/24
+  950  ping 192.168.20.18
+  951  ping 192.168.20.12
+  952  ping 192.168.20.6
+  953  ping 192.168.20.5
+  954  ping 192.168.20.4
+  955  ping 192.168.20.3
+  956  ping 192.168.20.2
+  957  sudo ls
+  958  sudo shutdown 
+  959  sudo shutdown now
+  960  ifconfig
+  961  vim.tiny 
+  962  uname -a
+  963  clear
+  964  su
+  965  ls
+  966  clear
+  967  yum search virtual Box
+  968  sudo yum search virtual Box
+  969  sudo yum search Virtual Box
+  970  yum search virtualbox
+  971  sudo ls
+  972  ls
+  973  sudo shutdown now
+  974  ls
+  975  cd VIDEO/
+  976  sudo rm 【Crazy\ 262】/
+  977  sudo rm -rf 【Crazy\ 262】/
+  978  ls
+  979  sudo chmod 777 【Crazy\ 262】/
+  980  sudo rm -rf 【Crazy\ 262】/
+  981  mount
+  982  chmod -R a+rwx
+  983  chmod -R a+ rwx
+  984  root
+  985  sudo mount -o remount rw /
+  986  cd Download/
+  987  rm -rf mouse_cursor/
+  988  ls
+  989  cd 
+  990  sudo mount -o remount rw /media/losacii/LOSACII_2T/
+  991  cd /media/losacii/LOSACII_2T/Download/
+  992  rm -rf mouse_cursor/
+  993  sudo reboot 
+  994  sudo rm Advanced\ C\ Programming\ Become\ professional\ with\ Cundefined.mp4 
+  995  ls
+  996  cd /media
+  997  ls
+  998  cd losacii/LOSACII_2T/
+  999  cd
+ 1000  sudo mount -o remount ,rw '/media/losacii/LOSACII_2T/'
+ 1001  fsck
+ 1002  sudo mount -o remount rw /
+ 1003  ifconfig
+ 1004  python -m CGIHTTPServer 8088
+ 1005  sudo ls
+ 1006  sudo shutdown -7
+ 1007  sudo shutdown 7
+ 1008  sudo
+ 1009  sudo ls
+ 1010  ssh pi@192.168.1.112
+ 1011  sudo ssh pi@192.168.1.112
+ 1012  cd /etc/fonts/conf.d/
+ 1013  ls
+ 1014  cd ../
+ 1015  ls
+ 1016  cd /usr/share/fonts/
+ 1017  ls
+ 1018  cd truetype/
+ 1019  ls
+ 1020  cd ../
+ 1021  cd opentype/ && ls
+ 1022  cd ../truetype/
+ 1023  cd freefont/
+ 1024  ls
+ 1025  find / -name "*source*"
+ 1026  find / -name "*source*ttf"
+ 1027  sudo find / -name "*source*ttf"
+ 1028  sudo find / -name "*sourcecoderegu"
+ 1029  locate sourcecode
+ 1030  locate regular
+ 1031  locate pt-mono
+ 1032  sudo 
+ 1033  sudo ls
+ 1034  sudo shutdown now
+ 1035  sudo reboot 
+ 1036  sudo shutdown now
+ 1037  cd /
+ 1038  ls
+ 1039  cd opt/
+ 1040  ls
+ 1041  locate eclipse
+ 1042  mkdir eclipse_JavaEE
+ 1043  sudo mkdir eclipse_JavaEE
+ 1044  ls
+ 1045  cd eclipse_JavaEE/
+ 1046  ls
+ 1047  tar -zxvf processing-3.3-linux64.tgz 
+ 1048  sudo mv processing-3.3 /usr/local/
+ 1049  ./processing
+ 1050  tar -zxvf eclipse-jee-neon-3-linux-gtk-x86_64.tar.gz 
+ 1051  sudo mv eclipse /usr/local/eclipse_JavaEE/
+ 1052  python 
+ 1053  sudo shutdown now
+ 1054  sudo ls
+ 1055  sudo shutdown now
+ 1056  suso ls
+ 1057  sudo ls
+ 1058  sudo shutdown now
+ 1059  ping 192.168.1.254
+ 1060  vim.tiny 
+ 1061  sudo reboot 
+ 1062  sudo ls
+ 1063  sudo shutdown now
+ 1064  sudo ls
+ 1065  sudo shutdown  now
+ 1066  python
+ 1067  ipython 
+ 1068  sudo ls
+ 1069  sudo shutdown now
+ 1070  ipython 
+ 1071  sudo ls
+ 1072  sudo shutdown now
+ 1073  locate xorg
+ 1074  locate xorg.conf
+ 1075  sudo gedit /usr/share/X11/xorg.conf.d
+ 1076  sudo shutdown now
+ 1077  ping 192.168.1.254
+ 1078  sudo ls
+ 1079  sudo reboot 
+ 1080  ifconfig
+ 1081  sudo shutdown  now
+ 1082  sudo ls
+ 1083  sudo reboot 
+ 1084  audo ls
+ 1085  sudo ls
+ 1086  sudo shutdown now
+ 1087  sudo shutdown  now
+ 1088  sudo apt-get install omxplayer
+ 1089  sudo ls
+ 1090  sudo vim.tiny /etc/apt/sources.list
+ 1091  sudo apt-get update 
+ 1092  sudo apt-get upgrade 
+ 1093  sudo apt-get install omxplayer
+ 1094  sudo reboot 
+ 1095  sudo ls
+ 1096  sudo reboot 
+ 1097  sudo apt-get update 
+ 1098  sudo apt-get upgrade 
+ 1099  sudo reboot 
+ 1100  ls
+ 1101  sudo ls
+ 1102  sudo rm -rf windows用批处理.zip 
+ 1103  sudo rm -rf windows╙├┼·┤ж└э/
+ 1104  python
+ 1105  ipython 
+ 1106  sudo apt-get install python-pygame
+ 1107  ipython
+ 1108  sudo apt-get install espeak
+ 1109  locate pygame
+ 1110  sudo ls
+ 1111  sudo apt-get install python-espeak 
+ 1112  ipython 
+ 1113  python main.py 
+ 1114  sleep
+ 1115  sleep --help
+ 1116  sleep 0
+ 1117  sleep -s 10
+ 1118  sleep OPTION
+ 1119  sudo ls
+ 1120  sudo pm-hibernate 
+ 1121  pwd
+ 1122  cd Pictures/
+ 1123  ls
+ 1124  cd tmp/
+ 1125  pwd
+ 1126  netstat -anp
+ 1127  sudo iptables -a INPUT -p tcp --dport 135 -j DROP
+ 1128  sudo iptables -A INPUT -p tcp --dport 135 -j DROP
+ 1129  sudo iptables -A INPUT -p tcp --dport 137 -j DROP
+ 1130  sudo iptables -A INPUT -p tcp --dport 138 -j DROP
+ 1131  sudo iptables -A INPUT -p tcp --dport 139 -j DROP
+ 1132  sudo iptables -A INPUT -p tcp --dport 445 -j DROP
+ 1133  sudo find /etc/ -name "iptables"
+ 1134  sudo find / -name "iptables"
+ 1135  cd /usr/share/
+ 1136  sudo gedit iptables/
+ 1137  sudo gedit iptables
+ 1138  cd iptables/
+ 1139  ls
+ 1140  cat iptables.xslt 
+ 1141  ls
+ 1142  workspace
+ 1143  ls
+ 1144  cd workspace
+ 1145  ls
+ 1146  cd cvNet/
+ 1147  ls
+ 1148  cd mod/
+ 1149  ls
+ 1150  python index.py 
+ 1151  cd ..
+ 1152  l
+ 1153  python index.py 
+ 1154  find /home/ -name "detect*"
+ 1155  find /home/ -name "detect.py"
+ 1156  cd
+ 1157  find /home/ -name "detect.py"
+ 1158  cd Documents/tmp/
+ 1159  vim.tiny myCV.py
+ 1160  gedit myCV.py
+ 1161  ifconfig
+ 1162  sudo ssh pi@192.168.1.112
+ 1163  ping 192.168.1.112
+ 1164  python
+ 1165  sudo bash Anaconda2-4.3.1-Linux-x86_64.sh 
+ 1166  sudo ls
+ 1167  sudo bash Anaconda3-4.3.1-Linux-x86_64.sh 
+ 1168  ls
+ 1169  cat testee.py 
+ 1170  ipython testee.py 
+ 1171  vim.tiny testee.py 
+ 1172  ipython testee.py 
+ 1173  sudo mkdir my_scripts
+ 1174  cd my_scripts/
+ 1175  vim.tiny tmp.py
+ 1176  conda jupyter notebook
+ 1177  jupyter notebook
+ 1178  conda env list
+ 1179  pip3
+ 1180  sudo apt install python3-pip
+ 1181  pip3
+ 1182  conda update --all --yes
+ 1183  sudo conda update --all --yes
+ 1184  sudo conda update -all yes
+ 1185  su
+ 1186  su -root
+ 1187  sudo su
+ 1188  sudo conda update --all --yes
+ 1189  conda update --all --yes
+ 1190  sudo chmod -R 777 /home/losacii/anaconda3/
+ 1191  conda update --all --yes
+ 1192  sudo reboot 1
+ 1193  sudo reboot
+ 1194  Restart kernel
+ 1195  restart kernel
+ 1196  sudo pip install rope
+ 1197  pip install --upgrade pip
+ 1198  sudo pip2 install rope
+ 1199  pip2 install --upgrade pip2
+ 1200  sudo pip2 install --upgrade pip2
+ 1201  jupyter notebook
+ 1202  conda install -c https://conda.binstar.org/menpo opencv
+ 1203  conda install spyder
+ 1204  jupyter notebook list
+ 1205  cd anaconda3/my_scripts/
+ 1206  sudo mkdir speech_to_text
+ 1207  cd ..
+ 1208  sudo chmod -R 777 my_scripts/
+ 1209  pip3 install wheel
+ 1210  cd
+ 1211  cd Downloads/
+ 1212  ls
+ 1213  pip3 install SpeechRecognition-3.6.5-py2.py3-none-any.whl 
+ 1214  python
+ 1215  ipython
+ 1216  python3 install setup.py 
+ 1217  python3 setup.py install
+ 1218  ping 192.168.20.5
+ 1219  jupyter notebook
+ 1220  pip3 install pyaudi
+ 1221  pip3 install pyaudio
+ 1222  sudo pip3 install pyaudio
+ 1223  sudo pip3 purge pyaudi
+ 1224  sudo pip3 uninstall pyaudi
+ 1225  sudo apt install portaudio19-dev python-all-dev
+ 1226  sudo apt install python3-pyaudio
+ 1227  sudo apt purge python3-pyaudio
+ 1228  sudo aptitude
+ 1229  sudo aptitude install python3-pyaudio
+ 1230  sudo apt-get update 
+ 1231  clear
+ 1232  pip3 aptitude
+ 1233  sudo apt-get install python-pyaudio python3-pyaudio
+ 1234  sudo apt-get purge python-pyaudio python3-pyaudio
+ 1235  sudo apt-get install python-pyaudio python3-pyaudio
+ 1236  pip install pyaudio
+ 1237  python
+ 1238  sudo su
+ 1239  cd anaconda3/
+ 1240  conda install spyder
+ 1241  conda install spyder3
+ 1242  conda install spyder-app
+ 1243  conda 
+ 1244  conda uninstall spyder
+ 1245  ls
+ 1246  spyder
+ 1247  conda install speech_recognition
+ 1248  sudo apt-get install libqt4-dev
+ 1249  cd anaconda3/
+ 1250  jupyter notebook
+ 1251  cd anaconda3/
+ 1252  pip install speechrecognition
+ 1253  ipython
+ 1254  sudo apt install libgtk2.0-dev pkg-config
+ 1255  cd anaconda3/
+ 1256  conda install opencv3
+ 1257  conda install opencv
+ 1258  spyder 
+ 1259  conda install -c https://conda.binstar.org/menpo opencv3
+ 1260  spyder 
+ 1261  ls
+ 1262  cd anaconda3/
+ 1263  ls
+ 1264  cd my_scripts/
+ 1265  ls
+ 1266  rm Untitled\ Folder/
+ 1267  rm -rf Untitled\ Folder/
+ 1268  ls
+ 1269  mkdir pybasics
+ 1270  ls
+ 1271  cd pybasics/
+ 1272  cd ..
+ 1273  ls
+ 1274  mv pybasics/ 000.pybasics/
+ 1275  ls
+ 1276  jupyter notebook list
+ 1277  jupyter notebook
+ 1278  cd
+ 1279  cd /usr/
+ 1280  ls
+ 1281  cd /home/losacii/
+ 1282  ls
+ 1283  sudo pip3 install pyaudio==0.2.9 --upgrade
+ 1284  sudo apt-get install python3 python3-all-dev python3-pip build-essential swig git libpulse-dev
+ 1285  pip3 install pocketsphinx
+ 1286  pip install pygsr
+ 1287  ipython
+ 1288  cd /home/losacii/anaconda3/lib/python3.6/site-packages/pygsr/
+ 1289  ls
+ 1290  vim.tiny __init__.py 
+ 1291  cd anaconda3/
+ 1292  spyder 
+ 1293  sudo espeak "hello" 2>/dev/null
+ 1294  jackd -r -m -p 8 -d dummy
+ 1295  sudo shutdown now
+ 1296  sudo hibernate-ram
+ 1297  sudo pm-suspend
+ 1298  sudo pm-hibernate 
+ 1299  jupyter notebook
+ 1300  sudo pm-hibernate 
+ 1301  sudo shutdown now
+ 1302  sudo pm-hibernate 
+ 1303  vim.tiny client.py
+ 1304  sudo ls
+ 1305  sudo shutdown nwo
+ 1306  sudo shutdown now
+ 1307  sudo ls
+ 1308  sudo pm-hibernate 
+ 1309  localhost
+ 1310  ""
+ 1311  sudo pm-hibernate 
+ 1312  sudo ls
+ 1313  sudo reboot 
+ 1314  sudo ls
+ 1315  sudo reboot 
+ 1316  sudo ls
+ 1317  sudo reboot s
+ 1318  hello
+ 1319  ls
+ 1320  sudo mkdir /etc/gconf/schemas
+ 1321  cd /etc/gconf/schemas/
+ 1322  sudo ln -s /usr/share/gconf/schemas/guake.schemas
+ 1323  cd ..
+ 1324  sudo rm -rf schemas/
+ 1325  ls
+ 1326  dat4
+ 1327  date
+ 1328  ls
+ 1329  apt-get install mysql-server
+ 1330  sudo apt-get install mysql-server
+ 1331  sudo apt-get install python-mysqldb
+ 1332  mysql -u root -p
+ 1333  sudo apt-get install te
+ 1334  ls
+ 1335  sudo apt-get install terminator
+ 1336  terminator 
+ 1337  teminaor
+ 1338  terminator 
+ 1339  ls
+ 1340  exit
+ 1341  ls
+ 1342  how
+ 1343  ls
+ 1344  sudo apt-get autoremove terminator 
+ 1345  ls
+ 1346  ~~~~~~
+ 1347  ~a~b~c
+ 1348  ls
+ 1349  pic
+ 1350  ls
+ 1351  su
+ 1352  ls
+ 1353  pyt
+ 1354  ls
+ 1355  id1414PicturesayOnLinux's
+ 1356  ls
+ 1357  sdfsdf
+ 1358  command
+ 1359  lllllsdlsd
+ 1360  terminator 
+ 1361  date
+ 1362  time
+ 1363  date
+ 1364  ls
+ 1365  sudo shutdown now
+ 1366  ping 192.168.1.112
+ 1367  ssh pi@192.168.1.112
+ 1368  ls
+ 1369  vim
+ 1370  ping 192.168.1.112
+ 1371  ssh pi@192.168.1.112
+ 1372  ping 192.168.1.112
+ 1373  ssh pi@192.168.1.112
+ 1374  ping 192.168.1.112
+ 1375  ping 192.168.1.101
+ 1376  ping 192.168.1.102
+ 1377  ssh pi@192.168.1.102
+ 1378  ping 192.168.1.100
+ 1379  ping 192.168.1.101
+ 1380  ping 192.168.1.102
+ 1381  ping 192.168.1.112
+ 1382  ping 192.168.1.100
+ 1383  ssh pi@192.168.1.100
+ 1384  ssh pi@192.168.1.101
+ 1385  ssh pi@192.168.1.101+
+ 1386  ssh pi@192.168.1.114
+ 1387  sudo pm-hibernate 
+ 1388  ls
+ 1389  cat get-pip.py 
+ 1390  ls
+ 1391  ca testee.py 
+ 1392  cat testee.py 
+ 1393  cd Documents/
+ 1394  ls
+ 1395  vimtutor 
+ 1396  vim
+ 1397  ls
+ 1398  sudo pm-hibernate 
+ 1399  locate vimrc
+ 1400  sudo vim /etc/vim/vimrc
+ 1401  vim
+ 1402  vim vtest
+ 1403  cd
+ 1404  vim
+ 1405  vim
+ 1406  ls
+ 1407  cd /etc/vim/
+ 1408  ls
+ 1409  mv vimrc vimrc-bak
+ 1410  sudo mv vimrc vimrc.bak
+ 1411  sudo gedit vimrc
+ 1412  sudo vim vimrc
+ 1413  ls
+ 1414  sudo cp vimrc.bak vimrc
+ 1415  sudo gedit vimrc
+ 1416  sudo vim vimrc
+ 1417  vim
+ 1418  locate vimrc
+ 1419  locate vimrc*
+ 1420  ls
+ 1421  sudo vim vimrc
+ 1422  sudo cp vimrc.bak vimrc
+ 1423  sudo vim vimrc
+ 1424  vm
+ 1425  vim
+ 1426  sudo vim vimrc
+ 1427  vim
+ 1428  sudo vim vimrc
+ 1429  vim
+ 1430  sudo vim vimrc
+ 1431  vim
+ 1432  sudo vim vimrc
+ 1433  vim
+ 1434  sudo vim vimrc
+ 1435  vim
+ 1436  sudo vim vimrc
+ 1437  gedit
+ 1438  cd /etc/vim/
+ 1439  sudo gedit vimrc
+ 1440  vim
+ 1441  sudo gedit vimrc
+ 1442  cd
+ 1443  vim ~/.vimrc
+ 1444  sudo reboot 
+ 1445  ping 192.168.1.112
+ 1446  ping 192.168.1.113
+ 1447  ping 192.168.1.114
+ 1448  ping 192.168.1.112
+ 1449  locate vimrc
+ 1450  cd /etc/vim/
+ 1451  sudo vim vimrc
+ 1452  vim
+ 1453  cd
+ 1454  ssh pi@192.168.1.100
+ 1455  vim.tiny 
+ 1456  vim
+ 1457  ssh pi@192.168.1.114
+ 1458  vim
+ 1459  ls
+ 1460  vim vimlite 
+ 1461  sudo apt-get update 
+ 1462  sudo apt-get upgrade 
+ 1463  ls
+ 1464  vim vimlite 
+ 1465  sudo pm-hibernate 
+ 1466  ssh pi@1192.168.1.114
+ 1467  ssh pi@192.168.1.114
+ 1468  cd /etc/vim/
+ 1469  ls
+ 1470  sudo vim vimrc
+ 1471  vim
+ 1472  sudo vim vimrc
+ 1473  sudo reboot
+ 1474  cd /etc/vim/
+ 1475  ls
+ 1476  vim vimrc
+ 1477  sudo vim vimrc
+ 1478  +
+ 1479  sudo vim vimrc
+ 1480  cd
+ 1481  cd /etc/vim
+ 1482  sudo vim vimrc
+ 1483  ls
+ 1484  sudo vim vimrc
+ 1485  cd
+ 1486  cd /etc/
+ 1487  ls
+ 1488  cd vim/
+ 1489  ls
+ 1490  sudo vim vimrc
+ 1491  cd
+ 1492  vim ~/.vimrc
+ 1493  vim
+ 1494  vim ~/.vimrc
+ 1495  vim ~/.profile 
+ 1496  vim ~/.vimrc
+ 1497  vim ~/.profile 
+ 1498  sudo reboot 
+ 1499  ls
+ 1500  vim vimlite 
+ 1501  vim
+ 1502  vim vimlite 
+ 1503  ls
+ 1504  sudo vim vimlite 
+ 1505  vim vimlite 
+ 1506  sudo apt-get autoremove vim
+ 1507  sudo apt-get autoremove vim-tiny 
+ 1508  brew
+ 1509  sudo apt install linuxbrew-wrapper
+ 1510  sudo brew install vim --override-system-vi
+ 1511  sudo brew install vim
+ 1512  brew install vim --override-system-vi
+ 1513  sudo apt-get install build-essential
+ 1514  vim
+ 1515  ls
+ 1516  vim testee.py 
+ 1517  vim
+ 1518  vim ~/.profile 
+ 1519  xmodmap
+ 1520  xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape' 
+ 1521  vim
+ 1522  vim ~/.vimrc 
+ 1523  vim testee.py 
+ 1524  vim ~/.vimrc 
+ 1525  vim testee.py 
+ 1526  vim ~/.vimrc 
+ 1527  vim testee.py 
+ 1528  vim ~/.vimrc 
+ 1529  vim testee.py 
+ 1530  vim ~/.vimrc 
+ 1531  vim testee.py 
+ 1532  vim ~/.vimrc 
+ 1533  vim testee.py 
+ 1534  vim ~/.vimrc 
+ 1535  vim testee.py 
+ 1536  sudo shutdown now
+ 1537  vim ~/.profile 
+ 1538  xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+ 1539  vim
+ 1540  vim ~/.vimrc 
+ 1541  cat ~/.vimrc
+ 1542  vim ~/.vimrc 
+ 1543  vim testee.py 
+ 1544  vim --version
+ 1545  git
+ 1546  sudo apt-get install exuberant-ctags 
+ 1547  sudo aptitude
+ 1548  sudo apt-get install aptitude
+ 1549  sudo aptitude install exuberant-ctags 
+ 1550  git clone https://github.com/rmk135/vimrc.git ~vimrc.git
+ 1551  cat \~vimrc.git/
+ 1552  git clone https://github.com/rmk135/vimrc.git ~/vimrc.git
+ 1553  vim ~/vimrc.git/
+ 1554  rm -rf ~/vimrc.git/
+ 1555  rm -rf ~vimrc.git/
+ 1556  git clone https://github.com/rmk135/vimrc.git ~/vimrc
+ 1557  cd ~/vimrc/
+ 1558  ls
+ 1559  cat vimrc
+ 1560  vim vimrc
+ 1561  cp vimrc ~/.vimrc
+ 1562  mkdir ~/vim && cp -r ~/vimrc/.vim ~/
+ 1563  mkdir ~/.vim && cp -r ~/vimrc/.vim ~/
+ 1564  cd
+ 1565  cd ~/vimrc/
+ 1566  ls
+ 1567  cd
+ 1568  cp ~/vimrc/vimrc ~/.vimrc
+ 1569  mkdir ~/.vim && cp -r ~/vimrc/.vim ~/
+ 1570  mkdir ~/.vim
+ 1571  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ets-labs/python-vimrc/master/setup.sh)"
+ 1572  rm -r ~./vim
+ 1573  cd /home/losacii/
+ 1574  rm .vim
+ 1575  rm -rf .vim
+ 1576  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ets-labs/python-vimrc/master/setup.sh)"
+ 1577  vim
+ 1578  ls
+ 1579  cd ~/
+ 1580  ls -a
+ 1581  cd vim
+ 1582  ls
+ 1583  cd ..
+ 1584  cd .vim/
+ 1585  ls
+ 1586  vim setup.sh 
+ 1587  vim
+ 1588  cd bundle/
+ 1589  ls
+ 1590  sgdy
+ 1591  cd .vim/
+ 1592  ls
+ 1593  cat vimrc
+ 1594  ls
+ 1595  cd
+ 1596  vim testee.py 
+ 1597  shdu ls
+ 1598  cd '
+ 1599  cd
+ 1600  sudo shut dnow now
+ 1601  c 
+ 1602  cat ~/.profile
+ 1603  vim
+ 1604  ls
+ 1605  where vim
+ 1606  processing
+ 1607  ssh pi@192.168.1.100
+ 1608  ls
+ 1609  sudo ls
+ 1610  sudo touch ssh
+ 1611  ssh pi@192.168.1.114
+ 1612  sudo ls
+ 1613  locate known_hosts
+ 1614  sudo mv /home/losacii/.config/freerdp/known_hosts /tmp
+ 1615  ssh pi@192.168.1.114
+ 1616  ssh-keygen -f "/home/losacii/.ssh/known_hosts" -R 192.168.1.114
+ 1617  ssh pi@192.168.1.114
+ 1618  vim
+ 1619  vim.tiny 
+ 1620  sudo shutdown now
+ 1621  ifconfig
+ 1622  ping 192.168.1.100
+ 1623  ping 192.168.1.101
+ 1624  ping 192.168.1.112
+ 1625  ping 192.168.1.113
+ 1626  ping 192.168.1.114
+ 1627  history
+
