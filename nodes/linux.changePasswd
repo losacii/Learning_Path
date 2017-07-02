@@ -1,0 +1,5 @@
+Use this command to change your passwd:
+  sudo passwd
+  <current passwd>
+  <new passwd>
+  <new passwd again>

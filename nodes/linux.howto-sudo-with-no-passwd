@@ -1,0 +1,12 @@
+How to 'sudo' without Entering passwd?
+
+  sudo visudo
+  (enter passwd, you will see a texted file)
+  losacii ALL=(ALL) NOPASSWD:ALL
+  (then exit file editing)
+  (then try 'sudo' commands, 
+   you won't need to enter any passwd)
+
+  other options:
+    ...
+

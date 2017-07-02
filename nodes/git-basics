@@ -101,7 +101,10 @@ Reset Remote ssh push&pull:
   'git remote -v'
   to see infos)
 
-
+Add, Commit, Push:
+  git add .
+  git commit -m '<change log>'
+  git push
 
 
 

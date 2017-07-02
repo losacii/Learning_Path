@@ -1,0 +1,38 @@
+syntax on
+set number 
+set relativenumber  
+set autoindent
+set ttyfast
+set tabstop=4
+
+map <F2> i<C-R>=strftime("%c")<CR><Esc>
+
+let mapleader=";"  " default mapleader is '\'
+
+nnoremap <leader>j <esc>o<esc>k
+
+nnoremap <leader>k <esc>O<esc>j
+
+nnoremap <A-j> ddp
+nnoremap <A-k> ddkP
+
+
+inoremap <leader>a <esc>          " Press ESC
+
+inoremap <leader>x <esc>:qa!<cr>  " Quit all Windows
+nmap <leader>x <esc>:qa!<cr>
+
+inoremap <leader>s <esc>:w<cr>    " Save
+nnoremap <leader>s <esc>:w<cr>
+
+inoremap <leader>r <esc>:!python %<cr>  " Run Python code 
+nnoremap <leader>r <esc>:!python %<cr> 
+
+inoremap <leader>b <esc>:!build.bat<cr> " C: build bat file
+nnoremap <leader>b <esc>:!build.bat<cr>
+
+nnoremap <leader>' diwi"<esc>pa"<esc>
+
+nnoremap <leader>l :set number relativenumber<cr>
+nnoremap <leader><leader> :set nonumber norelativenumber<cr>
+
