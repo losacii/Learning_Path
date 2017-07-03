@@ -1,0 +1,12 @@
+
+sudo add-apt-repository ppa:jonathonf/vim
+
+sudo apt-get update
+
+sudo apt install vim
+
+(to check out Vim version:
+	vim -version    )
+
+(To Uninstall)
+	sudo apt install ppa-purge && sudo ppa-purge ppa:jonathonf/vim

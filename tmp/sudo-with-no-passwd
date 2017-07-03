@@ -1,0 +1,4 @@
+sudo visudo
+
+root ALL=(ALL) ALL
+losa ALL=(ALL) NOPASSWD: ALL

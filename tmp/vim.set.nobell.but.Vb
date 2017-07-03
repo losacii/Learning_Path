@@ -1,0 +1,3 @@
+
+:set noerrbells
+:set visualbell

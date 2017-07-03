@@ -1,0 +1,22 @@
+losa@PC:~$ sudo vim /etc/vim/vimrc
+
+set number
+set relativenumber
+set autoindent
+set ttyfast
+set tabstop=4
+set hlsearch
+
+let mapleader=";"
+
+inoremap <leader>a <esc>
+
+inoremap <leader>x <esc>:q!<cr>
+nnoremap <leader>x <esc>:q!<cr>
+
+inoremap <leader>z <esc>:qa!<cr>
+nnoremap <leader>z <esc>:qa!<cr>
+
+inoremap <leader>s <esc>:w<cr>
+nnoremap <leader>s <esc>:w<cr>
+

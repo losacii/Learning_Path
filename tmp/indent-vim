@@ -1,0 +1,10 @@
+" forbid 'smart' indent and 'auto comment'
+  :set paste
+
+indent/dedent 5 lines:
+  5>
+  5<
+
+indent/dedent one line:
+  >>
+  <<

@@ -1,0 +1,7 @@
+ubuntu-remote-copy-paste
+
+sudo apt-add-repository ppa:remmina-ppa-team/remmina-next 
+sudo apt-get update 
+sudo apt-get install remmina remmina-plugin-rdp
+
+(then reboot ubuntu)

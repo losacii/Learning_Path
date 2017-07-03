@@ -1,0 +1,12 @@
+Install:
+  sudo apt install openssh-server
+  sudo apt install net-tools
+
+Start:
+  sudo /etc/init.d/ssh start
+
+Stop:
+  sudo /etc/init.d/ssh stop
+
+restart ....
+

@@ -1,0 +1,620 @@
+exit
+ifconfig
+vim
+vim.tiny 
+clear
+passwd pi
+sudo passwd root
+nmap -sP192.168.1.0/24　
+ls
+mkdir
+mkdir docs
+cd docs/
+vim.tiny show_all_local_IP.py
+sudo apt-get update && sudo apt-get upgrade 
+cd
+sudo apt-get build-dep vim-gnome 
+sudo apt-get install git-core wget
+sudo apt-get autoremove git-core wget
+sudo export LC_ALL=""
+export LC_COLLATE=C
+export LANG=en_EN.UTF-8
+export LC_ALL=""
+sudo apt-get install git-core wget
+sudo apt-get autoremove git-core wget+
+sudo apt-get autoremove git-core wget
+vi .bashrc 
+source .bashrc 
+vi .bashrc 
+source .bashrc 
+vi .bashrc 
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+sudo locale-gen en_US.UTF-8
+sudo apt-get install git-core wget
+sudo apt-get autoremove git-core wget
+sudo locale-gen
+sudo dpkg-reconfigure locales
+sudo apt-get install wget
+export LANGUAGE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LC_TYPE=en_US.UTF-8
+sudo apt-get install git-core
+sudo apt-get build-dep vim-gnome 
+git clone https://github.com/vim/vim.git
+ls
+mv vim .vim
+ls
+ls -a
+cd .vim//src/
+sudo make
+make
+sudo make install
+make distclean
+cd ..
+ls
+cd ..
+ls
+mv .vim vim
+ls
+cd vim/src/
+make distclean 
+make
+cd ../../
+ls
+sudo apt-get autoremove vim-common 
+ls
+rm -rf vim/
+ls
+git clone https://github.com/vim/vim.git
+cd vim/src/
+make
+make install
+vim
+sudo apt-get install libncurses5-dev libncursesw5-dev 
+sudo make install
+vim
+sudo apt-get install locate
+sudo apt-get install vim-nox
+vim
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ets-labs/python-vimrc/master/setup.sh)"
+vim
+vim.nox
+sudo apt-get install python2.7 python2.7-dev 
+sudo apt-get install python3.4 python3.4-dev 
+cd /usr/bin/python3
+ls
+locate python3
+locate python
+python3.4
+cd
+where python
+find / name "python3.4"
+find / name "python3"
+sudo find / name "python3"
+sudo find / name "python3*"
+sudo reboot 
+cd /usr/bin/
+ls
+cle
+clear
+ls
+python3.4
+pwd
+cd
+vim .vimrc
+vim
+sudo apt-get install python-pip
+sudo pip2
+sudo pip2 install --upgrade neovim
+sudo apt-get install python3-pip
+sudo pip install -U neovim
+suod pip3 install -U neovim
+sudo pip3 install -U neovim
+python -c "import neovim"
+vim
+cd /usr/bin/
+ls
+python3.4
+python3
+cd
+vim .vimrc
+vim
+vim .vimrc 
+cat .vimrc
+sudo apt-get install libncurses5-dev libgnome2-dev libgnomeui-dev     libgtk2.0-dev libatk1.0-dev libbonoboui2-dev     libcairo2-dev libx11-dev libxpm-dev libxt-dev python-dev     python3-dev ruby-dev lua5.1 lua5.1-dev libperl-dev
+vim
+vim .vimrc 
+vim
+ls
+cd docs/
+ls
+vim show_all_local_IP.py 
+python show_all_local_IP.py 
+vim show_all_local_IP.py 
+sudo shutdown now
+ls
+im
+vim
+clear
+sudo reboot 
+sudo shutdown -50
+sudo shutdown 50
+sudo shutdown -s -t 50
+sudo shutdown  -t 50
+date
+nmap
+sudo apt-get install nmap
+nmap -sP 192.168.1.100-255
+nmap -sP 192.168.1.100-122
+ping 192.168.1.110
+ping 192.168.1.101
+ping 192.168.1.0/24
+nmap -sP 192.168.1.0/24
+exit
+cat .vimrc 
+exit
+sudo shutdown now
+ls
+nmap
+sudo apt-get install mysql-server
+mysql -u root -p
+sudo apt-get install python-mysqldb
+pyhton
+python
+mysql -u root -p
+ifconfig
+sudo shutdown nwo
+sudo shutdown now
+ls
+mkdir ~/share
+ls
+sudo vim /etc/samba/smb.conf &
+sudo apt-get update 
+sudo apt-get install samba samba-common-bin 
+sudo rm ~/share/
+sudo rm -rf ~/share/
+sudo mkdir -m 1777 ~/data
+ls
+sudo mv /etc/samba/smb.conf /etc/samba/smb.conf.2017-06-05
+ls
+cd /etc/samba/
+grep -ve ^# -ve ‘^;’ -ve ^$ smb.conf.2017-06-05  >  smb.conf
+sudo grep -ve ^# -ve ‘^;’ -ve ^$ smb.conf.2017-06-05  >  smb.conf
+ls
+grep -ve ^# -ve ‘^;’ -ve ^$ smb.conf.2017-06-05  >  smb.conf
+sudo cp smb.conf.2017-06-05 smb.conf
+ls
+sudo vim smb.conf
+testparm 
+cd
+ls
+cd ~/data/
+cd ..
+ls
+mkdir -m 1777 ~/share
+ls
+sudo rm -rf data/
+ls
+testparm 
+cd /etc/samba/
+sudo cat smb.conf
+service samba restart 
+sudo service samba restart 
+sudo vim smb.conf
+cd
+sudo chmod -R 777 ~/share/
+sudo samba restart
+sudo smbpasswd -a pi
+sudo samba restart
+ls
+sudo vim /etc/samba/smb.conf
+sudo samba restart
+sudo vim /etc/samba/smb.conf
+mkdir -m 0777 data
+ls
+sudo samba restart
+sudo reboot 
+sudo smbpasswd -a admin
+sudo /etc/init.d/samba restart
+sudo smbpasswd -a pi
+sudo /etc/init.d/samba restart
+ls
+ping 192.168.20.10
+mysql -u root -p
+ls
+mkdir Download
+cd Download/
+wget https://nodejs.org/dist/v8.0.0/node-v8.0.0.tar.gz
+ls
+rm node-v8.0.0.tar.gz 
+ls
+sudo vim /etc/samba/smb.conf
+cd ..
+sudo vim /etc/samba/smb.conf
+sudo /etc/init.d/samba restart
+chmod -R go+rwx data/ share/
+sudo /etc/init.d/samba restart
+sudo chmod 666 /home/pi/share/
+sudo chmod 666 /home/pi/data/
+sudo chmod 666 /home/pi/Download/
+sudo /etc/init.d/samba restart
+sudo vim /etc/samba/smb.conf
+sudo vim /etc/selinux/config
+ls'
+ls
+cd /etc/selinux/
+ls
+vim semanage.conf 
+ls -a
+sudo vim config
+ls
+cd
+su root
+sudo vim /etc/samba/smb.conf
+sudo service samba restart 
+sudo /etc/init.d/samba restart
+ls
+mv node-v8.0.0.tar.gz Download/
+sudo mv node-v8.0.0.tar.gz Download/
+ls
+cd Download/
+sudo vim /etc/samba/smb.conf
+cd Download/
+chmod -R 777 Download/ share/ data/
+cd Download/
+tar -zxf node-v8.0.0.tar.gz 
+ls
+cd node-v8.0.0/
+./configure 
+vim node-install.sh
+sudo sh node-install.sh 
+sudo apt-get install screen
+sudo sh node-install.sh 
+screen -r
+sudo screen -r
+sudo reboot 
+cd Download/node-v8.0.0/
+sudo sh node-install.sh 
+screen
+screen -r
+sudo sh node-install.sh 
+sudo shutdown now
+node
+ls
+cd docs/
+ls
+python show_all_local_IP.py 
+ping 192.168.1.110
+cls
+clear
+node --version
+vim
+clear
+exit
+vim
+ls
+node node-server.js 
+clear
+node node-server.js 
+ls
+vim node-server.js 
+node node-server.js 
+vim .vimrc
+node node-server.js 
+vim node-server.js 
+sudo shutdown now
+ls
+sh
+ping
+ping -a 192.168.20.20 -n 4
+ping -a 192.168.20.20 -c 4
+ping -a 192.168.20.20
+ping 192.168.20.12
+ping 192.168.20.1
+ping -a 192.168.20.1
+ping -a 192.168.20.1 -c 4
+ping -a 192.168.20.1 -c 4 -l 16
+ping -a 192.168.20.1 -c 4 -l 2
+ping -a 192.168.20.1 -c 4 -l 1
+ping -a 192.168.20.1 -c 4 -l 1 -i 3
+ping -a 192.168.20.1 -c 4 -l 1 -i 0.2
+ls
+cd vim/
+ls
+exit
+ls
+ifconfig
+ls
+sudo chmod 777 Download/ share/
+/sbin/service smbstatus
+sudo apt-get install vim.tiny
+vim.tiny /etc/samba/smb.conf
+clear
+ls
+exit
+chcon
+chcon --help
+sudo vim /etc/samba/smb.conf
+sudo /etc/init.d/samba restart
+cd Download/
+ls
+rm -rf node-v8.0.0
+ls
+sudo rm -rf node-v8.0.0
+ls
+node
+ls
+cd ..
+ls
+node node-server.js
+vim
+vim node-server.js 
+ls
+clear
+l
+ls
+mysql -u root -p
+sudo cat /etc/samba/smb.conf
+sudo vim /etc/samba/smb.conf
+exit
+chmod 666 /home/pi/share/
+sudo cat /etc/selinux/config
+sudo vim /etc/selinux/config
+su root
+ipconfig
+exit
+ls
+cd Download/
+ls
+tar -zxf opencv-3.2.0.tar.gz 
+vim opencv-3.2.0-install.sh
+ls
+cd opencv-3.2.0/
+ls
+sudo apt-get install guvcview 
+sudo apt-get install synaptic
+sudo apt-get install python-dev
+sudo apt-get install python-numpy python-scipy python-matplotlib python-pandas python-nose
+sudo apt-get install build-essential cmake pkg-config 
+sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev -y && sudo apt-get install libgtk2.0-dev libgstreamer0.10-0-dbg libgstreamer0.10-0 libgstreamer0.10-dev libv4l-dev 
+sudo apt-get install default-jdk ant
+ls
+sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
+sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+sudo apt-get install libxvidcore-dev libx264-dev
+sudo apt-get install libatlas-base-dev gfortran
+cd Download/
+ls
+wget https://github.com/opencv/opencv_contrib/archive/3.2.0.zip
+ls
+rm 3.2.0.zip 
+sudo mkdir build
+cd build/
+sudo cmake -D
+CMAKE_BUILD_TYPE=RELEASE -D INSTALL_C_EXAMPLES=ON –D INSTALL_PYTHON_EXAMPLES=ON -D BUILD_EXAMPLES=ON -D WITH_QT=ON -D CMAKE_INSTALL_PREFIX=/usr/local -D WITH_OPENGL=ON -D WITH_V4L=ON –D BUILD_NEW_PYTHON_SUPPORT=ON -D WITH_TBB=ON ..
+sudo cmake -D CMAKE_BUILD_TYPE=RELEASE -D INSTALL_C_EXAMPLES=ON –D INSTALL_PYTHON_EXAMPLES=ON -D BUILD_EXAMPLES=ON -D WITH_QT=ON -D CMAKE_INSTALL_PREFIX=/usr/local -D WITH_OPENGL=ON -D WITH_V4L=ON –D BUILD_NEW_PYTHON_SUPPORT=ON -D WITH_TBB=ON ..
+sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..
+cmake
+sudo apt-get install bison
+sudo apt-get install v4l-utils
+sudo apt-get install default-jdk ant
+sudo apt-get install libgtkglext1-dev
+sudo qt4-dev-tools libqt4-dev libqt4-core libqt4-gui
+sudo apt-get qt4-dev-tools libqt4-dev libqt4-core libqt4-gui
+sudo apt-get install qt4-dev-tools libqt4-dev libqt4-core libqt4-gui
+cd ..
+rm build/
+rm -rf build/
+ls
+cd opencv-3.2.0/
+mkdir build
+cd build/
+sudo cmake -D CMAKE_BUILD_TYPE=RELEASE -D INSTALL_C_EXAMPLES=ON –D INSTALL_PYTHON_EXAMPLES=ON -D BUILD_EXAMPLES=ON -D WITH_QT=ON -D CMAKE_INSTALL_PREFIX=/usr/local -D WITH_OPENGL=ON -D WITH_V4L=ON –D BUILD_NEW_PYTHON_SUPPORT=ON -D WITH_TBB=ON ..
+sudo apt-get install numptyy
+sudo apt-get install python-numpy
+sudo cmake -D CMAKE_BUILD_TYPE=RELEASE -D INSTALL_C_EXAMPLES=ON –D INSTALL_PYTHON_EXAMPLES=ON -D BUILD_EXAMPLES=ON -D WITH_QT=ON -D CMAKE_INSTALL_PREFIX=/usr/local -D WITH_OPENGL=ON -D WITH_V4L=ON –D BUILD_NEW_PYTHON_SUPPORT=ON -D WITH_TBB=ON ..
+sudo make
+screen
+screen
+screen --help
+sudo reboot 
+cd Download/
+ls
+cd opencv-3.2.0/
+cd build/
+sudo make install
+cd /etc/ld.so.conf.d/
+ls
+sudo nano opencv.conf
+ls
+sudo cat opencv.conf 
+cd ~/Download/opencv-3.2.0/build/
+sudo ldconfig
+sudo nano /etc/bash.bashrc
+exit
+screen
+exit
+ls
+python
+opencv --version
+opencv 
+cv
+python
+ipython
+cd Download/opencv-3.2.0/samples/
+ls
+cd python/
+ls
+cd tutorial_code/
+ls
+cat introduction/
+ls
+cd core/
+cd ../introduction/
+ls
+cd documentation/
+ls
+cat documentation.py 
+cd
+cd Download/
+ls
+mv test.jpg pics/test.jpg
+sudo mv test.jpg pics/test.jpg
+vim
+exit
+sudo shutdown now
+ls
+cd Download/pics/
+ls
+sudo chmod -r 777 share/
+ls
+sudo chmod 666 -r share/
+sudo chmod 666 -R share/
+cd Download/
+ls
+shdu mv pics/ ~/share/
+sudo mv pics/ ~/share/
+cd ~/share/
+cd ..
+cd share/
+sudo chmod -R 666 share/
+ls
+cd share/
+sudo vim /etc/samba/smb.conf
+cd share/
+cd data/
+ls
+sudo mv ~/share/pics ~/data/
+ls
+cd pics/
+sudo chmod -R 666 pics/
+cd pics/
+sudo rm -rf pics/
+s
+ls
+vim
+exit
+ls
+exit
+ls
+cd share/
+cd data/
+ls
+vim 000.read_img.py
+python 000.read_img.py 
+vim 000.read_img.py
+sudo apt-get install ipython
+ipython 
+sudo vim /etc/modules-load.d/
+cd /etc/modules-load.d/
+ls
+vim rpi-camera.conf
+sudo raspi-config 
+vim rpi-camera.conf
+ipython 
+sudo reboot 
+ls
+cd data/
+ls
+vim 001.cam.py
+ls
+python 001.cam.py 
+exit
+raspistill -t 2000 -o img.jpg
+ipython
+cd /etc/modules-load.d/
+ls
+cat modules.conf 
+vim rpi-camera.conf
+sudo vim rpi-camera.conf
+sudo reboot 
+ipython 
+ls
+screen -r
+screen
+cd data/
+ls
+python 001.basicUdpServer.py 
+screen
+screen -r
+screen --help
+screen restart
+screen -r
+screen 2178 -r
+sudo reboot 
+python 001.basicUdpServer.py 
+ping 192.168.20.1
+ls
+cd data/
+ls
+vim 002.recv.py
+clear
+ls
+vim recv.py 
+cd data/
+ls
+screen
+ls
+vim
+ls
+clear
+screen
+screen -r
+ls
+cd data/
+ls
+mv 001.basicUdpServer.py 002.basicUdpServer.py 
+ls
+nano 003.TcpTest.py
+cat 003.TcpTest.py 
+python 003.TcpTest.py 
+vim 003.TcpTest.py 
+python 003.TcpTest.py 
+ifconfig
+vim 003.TcpTest.py 
+ifconfig
+python 003.TcpTest.py 
+vim 003.TcpTest.py 
+ls
+cd data/
+ls
+cd data/
+ls
+python 001.basicUdpServer.py 
+ls
+python 001.basicUdpServer.py 
+cd data/
+ls
+vim 004.fileServer.py
+ls
+cat 004.fileServer.py 
+ls
+python 004.fileServer.py 
+sudo reboot 
+cd data/cam/
+python server.py 
+cat server.py 
+python server.py 
+sudo shutdown 
+sudo shutdown now
+sudo chmod -R 777 data/
+screen
+ssh Administrator@192.168.20.5
+exit
+ls
+sudo shutdown now
+python server.py 
+sudo shutdown now
+cd data/cam/
+ls
+screen
+ls
+python data/cam/server.py 
+screen
+ls
+sudo shutdown now
+history
