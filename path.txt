@@ -1,0 +1,108 @@
+go https://github.com/losacii
+
+
+install openssh-server
+  sudo apt install openssh-server
+  sudo apt install net-tools
+	sudo /etc/init.d/ssh start
+
+
+sudo-with-no-passwd:
+
+  sudo visudo
+  root ALL=(ALL) ALL
+  losa ALL=(ALL) NOPASSWD: ALL
+
+  (then try 'sudo' commands, 
+   you won't need to enter any passwd)
+
+install vim8 with python2 support!!!
+  sudo add-apt-repository ppa:jonathonf/vim
+  sudo apt-get update
+  sudo apt-get install vim-nox-py2
+  sudo update-alternatives --config vim
+
+  version check:
+    vim -version
+  uninstall:
+    sudo apt install ppa-purge && sudo ppa-purge ppa:jonathonf/vim
+
+sudo apt-get install exuberant-ctags
+
+install chrome:
+
+  sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
+  wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+  sudo apt-get update
+  sudo apt-get install google-chrome-stable
+
+
+remove firefox:
+
+  sudo apt-get autoremove firefox firefox-locale-en
+
+
+set wallpaper;
+
+
+sudo apt install git
+mv Documents/ Doc && cd Doc
+git clone https://github.com/losacii/Learning_Path.git
+cd Learning_Path
+git init 
+git config --global user.name 'losacii'
+git config --global user.email 'losacii5@gmail.com'
+
+
+
+vimrc:
+vim /etc/vim/vimrc
+set number
+set relativenumber
+set autoindent
+set ttyfast
+set tabstop=2
+set hlsearch
+nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
+
+remote-desktop-copy-paste(copy below line by line):
+  sudo apt-add-repository ppa:remmina-ppa-team/remmina-next 
+  sudo apt-get update 
+  sudo apt-get install remmina remmina-plugin-rdp
+
+
+
+
+search: language support:
+  click 'install'
+  search 'input method', fcitx
+  go top-right, keyboard picture, configure;
+  add 'Shuangpin'
+   
+
+samba:
+  sudo apt-get install samba
+
+  (on windows):
+  computer, manage, users, add
+  share a disk, set user
+
+
+sudo vi /etc/apt/sources.list
+
+ADD:
+  deb http://us.archive.ubuntu.com/ubuntu trusty main multiverse
+	  to bottom.
+		  Then apt-get update
+
+
+install opencv3.3.0:
+  http://docs.opencv.org/trunk/d7/d9f/tutorial_linux_install.html
+
+  
+vimrc:
+  :set paste
+
+
+
+
