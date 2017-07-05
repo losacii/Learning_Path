@@ -142,7 +142,7 @@ vim-Plugin fugitive:
 
 
 'fugitive test'
-
+https://github.com/tpope/vim-fugitive/blob/master/doc/fugitive.txt
 
 
 
