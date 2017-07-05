@@ -141,6 +141,7 @@ vim-Plugin fugitive:
   :PluginInstall
 
 
+'fugitive test'
 
 
 
