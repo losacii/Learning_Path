@@ -133,5 +133,15 @@ for vim: Completely Swap 'Caps Lok' and "ESC":
   Done! you'll be twice as efficient in Vim. Who needs caps lock anyway? 
   * this is from: http://vim.wikia.com/wiki/VimTip166
   
+vim-Plugin fugitive:
+  go to bundle
+  git clone .....
+  edit .vimrc
+  launch vim
+  :PluginInstall
+
+
+
+
 
 
