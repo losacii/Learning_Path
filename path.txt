@@ -148,7 +148,8 @@ https://github.com/tpope/vim-fugitive/blob/master/doc/fugitive.txt
 
 install terminator but mouse right button, esc are problems
 
-init.py xmodmap
+init.py xmodmap 
+1874x1024
 
 
 
