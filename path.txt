@@ -146,5 +146,9 @@ vim-Plugin fugitive:
 'fugitive test'
 https://github.com/tpope/vim-fugitive/blob/master/doc/fugitive.txt
 
+install terminator but mouse right button, esc are problems
+
+init.py xmodmap
+
 
 
