@@ -142,6 +142,8 @@ vim-Plugin fugitive:
   launch vim
   :PluginInstall
 
+PluginClean
+
 
 'fugitive test'
 https://github.com/tpope/vim-fugitive/blob/master/doc/fugitive.txt
