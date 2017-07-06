@@ -130,6 +130,8 @@ for vim: Completely Swap 'Caps Lok' and "ESC":
     add Lock = Caps_Lock
   and call it ".speedswapper". Then open a terminal and type:
     xmodmap ~/.speedswapper
+  Then swap MIDLE with RIGHT for mouse:
+    xmodmap -e 'pointer = 1 3 2'
   Done! you'll be twice as efficient in Vim. Who needs caps lock anyway? 
   * this is from: http://vim.wikia.com/wiki/VimTip166
   
