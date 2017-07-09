@@ -1,0 +1,71 @@
+losa@pc:~/Documents$ cat Dans-vim.txt 
+step 0:
+        sudo su
+        cd
+        pwd
+        (you'll see '/root')
+        apt-get install vim-nox-py2 git-core wget
+
+step 1: get the 'vimrc' file
+        (thesheff17/youtube/master/vim/vimrc)
+        wget https://raw.githubusercontent.com/thesheff17/youtube/master/vim/vimrc
+	mv vimrc .vimrc
+        (this overwrite your local .vimrc)
+
+step 2: '.vim' directory
+        (make '.vim' dir
+         create four directories under)
+        mkdir .vim
+        cd vim
+        mkdir autoload bundle colors ftplugin
+
+        cd autoload
+        wget (raw ... tpope ... pathogen.vim)
+	losa@pc:~/.vim/autoload$ wget https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+
+        cd ../bundles
+        (get 6 plugin repos: ctrlp, nerdtree, python-mode, vim-nerdtree-tabs,
+         vim-powerline, vim-sensible)
+        git clone https://github.com/tpope/vim-sensible.git
+	git clone https://github.com/kien/ctrlp.vim.git
+	git clone https://github.com/scrooloose/nerdtree
+	git clone https://github.com/klen/python-mode.git
+	git clone https://github.com/Lokaltog/vim-powerline.git
+	git clone https://github.com/jistr/vim-nerdtree-tabs.git
+
+        cd ../colors
+        wget https://raw.githubusercontent.com/thesheff17/youtube/master/vim/wombat256mod.vim
+
+        cd ../ftplugin
+        wget https://raw.githubusercontent.com/thesheff17/youtube/master/vim/python_editing.vim
+
+	(rm -rf python-mode/)
+	cd ~/.vim/bundle/ && git clone --recursive https://github.com/davidhalter/jedi-vim.git
+	
+DONE! THE YOU CAN START YOUR VIM!!!
+
+jedi-vim is from:
+	https://github.com/davidhalter/jedi-vim
+
+>>>
+        <leader>s (sort lines)
+        <c-w> h/l
+        ? for options >> I, show all hidden files >> s, split 
+                                                     t, show in tabs >> 
+                                                     <leader>m/n
+        <leader>t, show nerdtree
+
+        root@PC:~# vim scp://losa@127.0.0.1//home/losa/Documents/Dans-vim.txt
+
+>>> 
+        > rm -rf .vim
+        > rm .vimrc
+        (github > theshef17 > youtube > vim >> vim.py)
+        >> raw >> wget(wget https://raw.githubusercontent.com/thesheff17/youtube/master/vim/vim.py)
+        >> chmod +x vim.py
+        >> ./vim.py --help
+        >> ./vim.py -u root
+        (within 30 seconds, everything set up)
+
+
+- - - - - - - - - - @endline - - - - - - - - - - - - - - - 
