@@ -1,5 +1,7 @@
 go https://github.com/losacii
 
+sudo apt install python-pip
+pip install jedi
 
 install openssh-server
   sudo apt install openssh-server
