@@ -5,6 +5,8 @@ step 0:
         pwd
         (you'll see '/root')
         apt-get install vim-nox-py2 git-core wget
+	
+	pip install jedi
 
 step 1: get the 'vimrc' file
         (thesheff17/youtube/master/vim/vimrc)
@@ -16,7 +18,7 @@ step 2: '.vim' directory
         (make '.vim' dir
          create four directories under)
         mkdir .vim
-        cd vim
+        cd .vim
         mkdir autoload bundle colors ftplugin
 
         cd autoload
