@@ -1,5 +1,8 @@
 go https://github.com/losacii
 
+sudo apt install terminator
+set terminator
+
 sudo apt install python-pip
 pip install jedi
 
@@ -17,6 +20,10 @@ sudo-with-no-passwd:
 
   (then try 'sudo' commands, 
    you won't need to enter any passwd)
+
+could not get lock /var/lib/dpkg/lock:
+	sudo rm /var/cache/apt/archives/lock
+	sudo rm /var/lib/dpkg/lock
 
 install vim8 with python2 support!!!
   sudo add-apt-repository ppa:jonathonf/vim
