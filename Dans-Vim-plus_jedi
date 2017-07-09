@@ -47,15 +47,24 @@ DONE! THE YOU CAN START YOUR VIM!!!
 jedi-vim is from:
 	https://github.com/davidhalter/jedi-vim
 
->>>
+TIPS:
         <leader>s (sort lines)
         <c-w> h/l
-        ? for options >> I, show all hidden files >> s, split 
+        ? for options >> I, show all hidden files >> s, show in split 
                                                      t, show in tabs >> 
-                                                     <leader>m/n
+                                                     <leader>m/n,  to switch tabs
         <leader>t, show nerdtree
+	<leader>e, close window
+	<leader>E, quit all
+	
+	<F2> toggle Paste
 
         root@PC:~# vim scp://losa@127.0.0.1//home/losa/Documents/Dans-vim.txt
+	
+	Terminator setting:
+		global >> check "PuTTY style paste
+		
+	Visual Mode: Shift << >> move indentation
 
 >>> 
         > rm -rf .vim
