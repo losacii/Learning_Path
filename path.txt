@@ -53,6 +53,24 @@ git init
 git config --global user.name 'losacii'
 git config --global user.email 'losacii5@gmail.com'
 
+Jump git passwd:
+	cd /
+  git config --global credential.helper store
+  
+git: add, commit, push
+				git add .
+				git commit -m '<changeLog>'
+				git push
+
+
+Reset Remote ssh push&pull:
+  git remote rm origin
+  git remote add origin git@github.com:username/repository.git
+  git push -u origin master
+
+  (the you can use
+  'git remote -v'
+  to see infos)
 
 
 vimrc:
