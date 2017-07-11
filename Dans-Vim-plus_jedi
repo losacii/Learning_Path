@@ -25,15 +25,16 @@ step 2: '.vim' directory
         wget (raw ... tpope ... pathogen.vim)
 	losa@pc:~/.vim/autoload$ wget https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
-        cd ../bundles
+        cd ../bundle
         (get 6 plugin repos: ctrlp, nerdtree, python-mode, vim-nerdtree-tabs,
          vim-powerline, vim-sensible)
         git clone https://github.com/tpope/vim-sensible.git
 	git clone https://github.com/kien/ctrlp.vim.git
 	git clone https://github.com/scrooloose/nerdtree
-	git clone https://github.com/klen/python-mode.git
 	git clone https://github.com/Lokaltog/vim-powerline.git
 	git clone https://github.com/jistr/vim-nerdtree-tabs.git
+	
+	[XXX this will confilict with jedi-vim's autocomplute] git clone https://github.com/klen/python-mode.git
 
         cd ../colors
         wget https://raw.githubusercontent.com/thesheff17/youtube/master/vim/wombat256mod.vim
