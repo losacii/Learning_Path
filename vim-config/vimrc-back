@@ -24,7 +24,7 @@ set bs=2 " make backspace behave like normal again
 " it is next to ``m`` and ``n`` which I use for navigating between tabs.
 let mapleader = ","
 nnoremap <leader>x <esc>:!python %<cr>
-inoremap <leader>x <esc>:w<cr>:!python %<cr>
+inoremap <leader>x <esc>:!python %<cr>
 
 nnoremap <leader>w <esc>:w<cr>
 inoremap <leader>w <esc>:w<cr>
