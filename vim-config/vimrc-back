@@ -25,6 +25,8 @@ set bs=2 " make backspace behave like normal again
 let mapleader = ","
 nnoremap <leader>x <esc>:!python %<cr>
 inoremap <leader>x <esc>:w<cr>:!python %<cr>
+
+nnoremap <leader>w <esc>:w<cr>
 inoremap <leader>w <esc>:w<cr>
 
 " Bind nohl

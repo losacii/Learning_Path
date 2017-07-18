@@ -1,11 +1,11 @@
-losa@pc:~/Documents$ cat Dans-vim.txt 
+losa@pc:~/Documents$ cat Dans-vim.txt
 step 0:
         sudo su
         cd
         pwd
         (you'll see '/root')
         apt-get install vim-nox-py2 git-core wget
-	
+
 	pip install jedi
 
 step 1: get the 'vimrc' file
@@ -33,7 +33,7 @@ step 2: '.vim' directory
 	git clone https://github.com/scrooloose/nerdtree
 	git clone https://github.com/Lokaltog/vim-powerline.git
 	git clone https://github.com/jistr/vim-nerdtree-tabs.git
-	
+
 	[XXX this will confilict with jedi-vim's autocomplute] git clone https://github.com/klen/python-mode.git
 
         cd ../colors
@@ -44,32 +44,36 @@ step 2: '.vim' directory
 
 	(rm -rf python-mode/)
 	cd ~/.vim/bundle/ && git clone --recursive https://github.com/davidhalter/jedi-vim.git
-	
+
 DONE! THE YOU CAN START YOUR VIM!!!
 
 jedi-vim is from:
 	https://github.com/davidhalter/jedi-vim
 
 TIPS:
+    Edit remote files with Local settings!!!
+      vim scp://root@10.0.3.3//root/test.py
+
+
         <leader>s (sort lines)
         <c-w> h/l
-        ? for options >> I, show all hidden files >> s, show in split 
-                                                     t, show in tabs >> 
+        ? for options >> I, show all hidden files >> s, show in split
+                                                     t, show in tabs >>
                                                      <leader>m/n,  to switch tabs
         <leader>t, show nerdtree
 	<leader>e, close window
 	<leader>E, quit all
-	
+
 	<F2> toggle Paste
 
         root@PC:~# vim scp://losa@127.0.0.1//home/losa/Documents/Dans-vim.txt
-	
+
 	Terminator setting:
 		global >> check "PuTTY style paste
-		
+
 	Visual Mode: Shift << >> move indentation
 
->>> 
+>>>
         > rm -rf .vim
         > rm .vimrc
         (github > theshef17 > youtube > vim >> vim.py)
@@ -80,4 +84,4 @@ TIPS:
         (within 30 seconds, everything set up)
 
 
-- - - - - - - - - - @endline - - - - - - - - - - - - - - - 
+- - - - - - - - - - @endline - - - - - - - - - - - - - - -
