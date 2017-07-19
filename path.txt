@@ -178,5 +178,7 @@ install terminator:
 init.py xmodmap
 1874x1024
 
+how to move folder:
+    mv foldera/* folderb/
 
 
