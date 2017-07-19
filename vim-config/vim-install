@@ -1,0 +1,26 @@
+sudo apt-get install libncurses5-dev
+
+git clone https://github.com/vim/vim.git
+	(6 min)
+
+cd vim
+git pull
+
+
+./configure --with-features=huge \
+            --enable-multibyte \
+            --enable-pythoninterp \
+            --with-python-config-dir=/usr/lib/python2.7/config-x86_64-linux-gnu \
+            --enable-gui=gtk2 --enable-cscope --prefix=/usr
+
+
+cd src
+make distclean
+
+
+make
+	(this take about 5 min)
+
+
+sudo make install
+	(4 min)

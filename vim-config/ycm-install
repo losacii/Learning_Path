@@ -1,0 +1,17 @@
+https://github.com/oblitum/YouCompleteMe/
+https://github.com/Valloric/YouCompleteMe
+
+pip install jedi
+
+sudo apt-get install libclang-dev
+
+
+
+
+[cd bundle]
+git clone https://github.com/Valloric/YouCompleteMe.git
+
+[~/.vim/bundle$ cd YouCompleteMe/]
+git submodule update --init --recursive
+
+
