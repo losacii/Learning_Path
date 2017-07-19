@@ -24,11 +24,14 @@ sudo apt-get install libdc1394-22-dev
 install libjasper-dev:
   https://www.ubuntuupdates.org/package/core/xenial/main/updates/libjasper-dev
 
-losa@pc:~$
+cd 
+git clone https://github.com/opencv/opencv.git
+git clone https://github.com/opencv/opencv_contrib.git
+
 cd opencv
 
-losa@pc:~/opencv$
-mkdir build && cd build
+mkdir build
+cd build
 
 losa@pc:~/opencv/build$
 cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..
@@ -53,8 +56,4 @@ install opencv3.3.0:
 http://blog.csdn.net/alphaPii/article/details/72764917?locationNum=11&fps=1
 http://docs.opencv.org/trunk/d7/d9f/tutorial_linux_install.html
 http://www.cnblogs.com/arkenstone/p/6490017.html
-
-
-
-
 
