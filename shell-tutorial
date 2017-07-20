@@ -1,0 +1,67 @@
+(all commands are in lowercase)
+
+$ who am i    |   (what is the time I logged in)
+
+$ pwd | path working directory
+
+$ clear | clear screen
+
+$ cal | calender
+
+$ cal 7 2017
+
+$ date
+
+
+$ date '+DATE: %m-%y%nTIME:%H:%M:%S'
+DATE: 07-17
+
+
+$ touch file1 file2 file3 file4 file4
+
+$ mkdir My_dir_name
+
+$ mkdir ~/Documents/MyDir
+
+$ cd ~/Documents/MyDir
+
+
+$ cat > testFile | write into a file (or new file)
+xxxxxxxxx xx  xxx  xxxxx
+^d
+
+$ cat < testFile | read text out of a file
+$ cat testFile
+
+
+$ cat A B > C
+
+$ mv <fileNameA> <fileNameB>
+
+$ rm <fileName> <fileName1>
+$ rm *.txt
+$ rm *
+
+(remove a directory)
+$ rm -rf *
+$ rm -r <dirName>
+$ rmdir <dirName>
+
+$ cp <fpA> <fpB>
+
+(hard link)
+ln <oldfileName> <newFileName>
+
+(soft link is just a pointer)
+ln -s <ori_file_name> <lnk_file_name>
+
+
+
+
+
+
+
+
+
+
+
