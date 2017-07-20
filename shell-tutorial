@@ -56,11 +56,38 @@ ln <oldfileName> <newFileName>
 ln -s <ori_file_name> <lnk_file_name>
 
 
+umask
+
+ls
+ls <MyDir>
+ls -l
+(same as) ll
+ls -a
+
+(Change file Permissions)
+chmod 764 <fileName>
+
+uname -a
 
 
 
+( Count lines, words, chars with 'wc')
+
+file *
+
+wc <fileName>
+wc -l <fileName>
+wc -w <fileName>
 
 
+sort <fileName>
+(this won't change the file, but show it sorted)
+
+
+
+cut -d"-" -f 1,3 players
+
+dd if=test of=outfile conv=ucase
 
 
 
