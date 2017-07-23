@@ -1,3 +1,7 @@
+Markdown Syntax [Tutorial](https://www.youtube.com/watch?v=_gknWWa2OF0)
+Mastering Markdown [Tutorial](https://www.youtube.com/watch?v=ziSkbxWwDIQ)
+
+
 Enterprise Ape
 ==============
 
@@ -33,6 +37,12 @@ Feel free to access [my portfolio](http://www.126.com).
 3. Performance
 
 This is what ruby code would look like `puts 'Hello World'`
+
+### Check boxes
+* [ ] Get Milk
+* [x] Crack Eggs
+* [ ] Cook Bacon
+
 
 
 
