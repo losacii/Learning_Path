@@ -1,4 +1,5 @@
 Markdown Syntax [Tutorial](https://www.youtube.com/watch?v=_gknWWa2OF0)
+
 Mastering Markdown [Tutorial](https://www.youtube.com/watch?v=ziSkbxWwDIQ)
 
 
@@ -18,7 +19,7 @@ Feel free to access [my portfolio](http://www.126.com).
 >
 > a readme file for Github. Your readme file is one of the first things users
 >
-> will see when accessing your application on Github, and it's helpful to have a
+> will **see when accessing** your application on Github, and it's helpful to have a
 >
 > professional looking readme file in place, and the markdown markup language
 >
