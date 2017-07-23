@@ -20,7 +20,7 @@ while True:
 
     cv2.imshow('frame', frame)
 
-    key = cv2.waitKey(20) & 0xff
+    key = cv2.waitKey(50) & 0xff
 
     if key == 27:
         break
