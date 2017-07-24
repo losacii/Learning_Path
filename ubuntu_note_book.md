@@ -136,9 +136,12 @@ for opencv330:
 Compile vim8.0:
 
 	sudo apt-get install libncurses5-dev
+	cd ~
 	git clone https://github.com/vim/vim.git
 	cd vim
 	git pull
+
+	sudo apt-get install python3-pip
 
 	sudo apt-get install libncurses5-dev libgnome2-dev libgnomeui-dev \
 	libgtk2.0-dev libatk1.0-dev libbonoboui2-dev \
@@ -151,7 +154,7 @@ Compile vim8.0:
 		    --with-python-config-dir=/usr/lib/python2.7/config-x86_64-linux-gnu \
 		    --enable-gui=gtk2 --enable-cscope --prefix=/usr
 
-	make VIMRUNTIMEDIR=/usr/share/vim/vim80
+	sudo make VIMRUNTIMEDIR=/usr/share/vim/vim80
 
 	sudo make install
 
@@ -202,6 +205,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ets-labs/python-vimrc/mast
 
 (Change appearance of terminal!)
 sudo vim ~/.bashrc (go to bottom line, add this line)
-PS1='\t\[\033[4;31;1m\]\u\[\033[00m\]@\h:\[\033[37;1m\]\w\[\033[32;1m\]\$ \[\033[34;0m\]'
+PS1='\t\[\033[4;31;1m\]\u\[\033[00m\]@\h:\[\033[37;1m\]\w\[\033[32;1m\]\n\$ \[\033[34;0m\]'
 source ~/.bashrc
 (then restart terminal, set the difference!!)

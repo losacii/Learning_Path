@@ -25,3 +25,18 @@ make
 sudo make install
 	(4 min)
 
+### Reload Vim Config Without Having To Restart Editor:
+map <leader>s :source ~/.vimrc<CR>
+
+
+Can't open file /usr/share/vim/vim80/syntax/syntax.vim
+  cd /usr/share/vim/vim80
+  mkdir syntax/
+  sudo ln -s /usr/local/share/vim/vim80/syntax/syntax.vim /usr/share/vim/vim80/syntax/syntax.vim
+
+
+git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
+
+
+
