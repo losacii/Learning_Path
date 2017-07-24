@@ -7,27 +7,22 @@ apt-get update
 	sudo visudo
 	losa ALL=(ALL) NOPASSWD: ALL
 	(write into /etc/sudoer.tmp)
-
+	
 ### installs
 sudo apt-get instll net-tools
 sudo apt-get install openssh-server
 sudo /etc/init.d/ssh start
-
+	
 ### terminator
 sudo apt-get install terminator
     global: PuTTY style paste
     Profile: Copy on selection
-
-terminator:
-
-	alt + Q: broadcast off
-	alt + A: broadcast All
-	alt + G: broadcast Group
-	PuTTy style Paste
-
+    
+    alt + Q: broadcast off
+    alt + A: broadcast All
 
 ### git-core
-sudo aapt-get install git-core
+sudo apt-get install git-core
 
 ### Brightness
 setting: Brightness&Lock;
