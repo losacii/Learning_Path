@@ -143,17 +143,25 @@ Compile vim8.0:
 	libcairo2-dev libx11-dev libxpm-dev libxt-dev python-dev \
 	python3-dev
 
-	./configure --with-features=huge \
-		    --enable-multibyte \
-		    --enable-pythoninterp \
-		    --with-python-config-dir=/usr/lib/python2.7/config-x86_64-linux-gnu \
-		    --enable-gui=gtk2 --enable-cscope --prefix=/usr
+./configure --with-features=huge \
+--enable-multibyte \
+--enable-pythoninterp \
+--with-python-config-dir=/usr/lib/python2.7/config-x86_64-linux-gnu \
+--enable-luainterp \
+--enable-gui=gtk2 --enable-cscope --prefix=/usr
 
-	sudo make VIMRUNTIMEDIR=/usr/share/vim/vim80
+	sudo make [VIMRUNTIMEDIR=/usr/share/vim/vim80]
 
 	sudo make install
 
 	make distclean
+	
+	(https://github.com/spf13/spf13-vim)
+	curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
+	
+	( If you have a bash-compatible shell you can run the script directly:
+          sh <(curl https://j.mp/spf13-vim3 -L)
+	)
 
 cd ~/
 wget https://raw.githubusercontent.com/losacii/ubuntuMemo/master/vim-config/vimrc-back
