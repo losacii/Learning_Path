@@ -80,15 +80,42 @@ wc -l <fileName>
 wc -w <fileName>
 
 
-sort <fileName>
+### Sort
+> sort <fileName>
 (this won't change the file, but show it sorted)
 
 
-
+### cut through a file
 cut -d"-" -f 1,3 players
 
+### convert & copy file with 'dd'
 dd if=test of=outfile conv=ucase
 
+### manul, banner
+
+man cat  (manu of 'cat')
+
+banner "Hello World"
+
+### compress -v <fileName>
+compress -v <fileName>
+zcat <fileName.z>
+uncompress <fileName.z>
+
+### Scripts 0
+vim test.sh
+  echo "Hello World!"
+  #This is  a simple shell script.
+
+  echo "This is my second script file."
+  pwd
+  ls
+  seq 1 10
+  banner "THE END"
+
+  echo "Please enter you name:"
+  read user_name
+  echo "Hello $user_name, It's a fine day, isn't it?"
 
 
 
