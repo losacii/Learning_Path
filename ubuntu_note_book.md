@@ -1,12 +1,39 @@
+### init
 sudo su
-
 apt-get update
 
-apt-get install terminator
+### sudo-with-no-passwd:
 
-apt-get install git-core
+	sudo visudo
+	losa ALL=(ALL) NOPASSWD: ALL
+	(write into /etc/sudoer.tmp)
 
-Git:
+### installs
+sudo apt-get instll net-tools
+sudo apt-get install openssh-server
+sudo /etc/init.d/ssh start
+
+### terminator
+sudo apt-get install terminator
+    global: PuTTY style paste
+    Profile: Copy on selection
+
+terminator:
+
+	alt + Q: broadcast off
+	alt + A: broadcast All
+	alt + G: broadcast Group
+	PuTTy style Paste
+
+
+### git-core
+sudo aapt-get install git-core
+
+### Brightness
+setting: Brightness&Lock;
+    
+
+### Git stuff:
     cd ~/Documents
     git clone https://github.com/losacii/ubuntuMemo.git
     git init
@@ -29,15 +56,7 @@ Git:
     cd ubuntuMemo/
     git remote -v (see infos)
 
-
-terminator:
-
-	alt + Q: broadcast off
-	alt + A: broadcast All
-	alt + G: broadcast Group
-	PuTTy style Paste
-
-swap Esc with Caps_Lock:
+### swap Esc with CapsLock:
 
 	xmodmap .speedswapper
 
@@ -45,17 +64,6 @@ sudo apt install python-pip
 
 pip install jedi
 
-sudo apt-get install openssh-server
-
-sudo apt install net-tools
-
-sudo /etc/init.d/ssh start
-
-sudo-with-no-passwd:
-
-	sudo visudo
-	losa ALL=(ALL) NOPASSWD: ALL
-	(write into /etc/sudoer.tmp)
 
 install chrome:
 
@@ -64,7 +72,7 @@ install chrome:
   sudo apt-get update
   sudo apt-get install google-chrome-stable
 
-System Settings:
+### System Settings:
 
     C-A-T: terminal
         W: web_browser
