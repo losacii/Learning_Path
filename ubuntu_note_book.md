@@ -12,14 +12,16 @@ Computer:
 sudo apt-get install terminator
     global: PuTTY style paste
     Profile: Copy on selection
+    view Transparent: Profile >> Background >> transparent 80%
     
     alt + A: broadcast All
     alt + Q: broadcast off
     F11: Fullscreen
     Alt + <Direction>
-    C-f: find
+    <F9>: find
     C-v: paste
     (F1 ~ F12 undefined)
+    
     
 ### init
 sudo apt-get update
@@ -36,8 +38,13 @@ sudo apt-get install git-core
 ### Brightness
 setting: Brightness&Lock;
 keyboard:
-  <A-o>
-  <A-p>
+    A-o  : take a screenshot of an area [to clipboard]
+    A-p  : take a screenshot of an area
+
+    A-1  : Volume Down
+    A-2  : volume Up
+    A-0  : mute
+
     
 
 ### Git stuff:
@@ -70,12 +77,9 @@ keyboard:
 ### swap Esc with CapsLock:
 
 	xmodmap .speedswapper
+    Gnome setting can do this!
 
-sudo apt install python-pip
-
-pip install jedi
-
-
+(firefox is slow! so chrome!)
 install chrome:
 
   sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
@@ -83,30 +87,41 @@ install chrome:
   sudo apt-get update
   sudo apt-get install google-chrome-stable
 
+
+### Install gnome and arc!
+sudo apt-get install gnome-shell
+sudo sh -c "echo 'deb http://download.openSUSE.org/repositories/home:/Horst3180/xUbuntu_16.04/ /' >> /etc/apt/sources.list.d/arc-theme.list"
+sudo wget http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_16.04/Release.key
+sudo apt-key add -<Release.key
+sudo apt update
+sudo apt install arc-theme
+sudo apt install gnome-tweak-tool
+(Logout, login with Gnome, not wayland!)
+
+tweak: Check 'Global Dar Theme' >> Arc-Dark
+    Desktop: add Trash
+    Top Bar: show date, show Seconds, show Week numbers
+    Typing: CapsLock key behavior >> (bottom)Swap ESC and CapsLock
+    (Set a Wallpaper)
+
 ### System Settings:
 
     C-A-T: terminal
         W: web_browser
         H: home_Folder
 
-    A-o  : take a screenshot of an area [to clipboard]
-    A-p  : take a screenshot of an area
-
-    C-1  : Volume Down
-    C-2  : volume Up
-    C-3  : mute
-
     C-A-L: log out
     Super+L : Lock Screen
 
     Super + 1/2/3/4: go to Workspace
+
+sudo apt-get install unrar
 
 for opencv330:
 
 	sudo apt-get install build-essential
 
 	sudo apt-get install cmake
-	sudo apt-get install git
 	sudo apt-get install libgtk2.0-dev
 	sudo apt-get install pkg-config
 	sudo apt-get install libavcodec-dev
@@ -131,7 +146,7 @@ for opencv330:
 	cd ~/opencv
 	mkdir build
 	cd build
-	cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..
+	sudo cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..
 
 	(after 35 secs)
 	sudo make -j7
@@ -144,6 +159,13 @@ for opencv330:
 	import cv2
 	cv2.__version__
 
+sudo apt install python-pip python3-pip
+(pip: package will be installed in 2.7/sitepackages, and ...)
+
+sudo apt install ipython
+
+" pip install jedi
+
 Compile vim8.0:
 
 	sudo apt-get install libncurses5-dev
@@ -154,12 +176,16 @@ Compile vim8.0:
 
 	sudo apt-get install python3-pip
 
-	sudo apt-get install libncurses5-dev libgnome2-dev libgnomeui-dev \
-	libgtk2.0-dev libatk1.0-dev libbonoboui2-dev \
-	libcairo2-dev libx11-dev libxpm-dev libxt-dev python-dev \
-	python3-dev
 
-./configure --with-features=huge \
+sudo apt-get install libncurses5-dev libgnome2-dev libgnomeui-dev \
+libgtk2.0-dev libatk1.0-dev libbonoboui2-dev \
+libcairo2-dev libx11-dev libxpm-dev libxt-dev python-dev \
+python3-dev lua5.1 lua5.1-dev git
+            
+(if you just copy vim from your Usb Disk, you need chmod it)
+" chmod -R 777 vim/
+
+sudo ./configure --with-features=huge \
 --enable-multibyte \
 --enable-pythoninterp \
 --with-python-config-dir=/usr/lib/python2.7/config-x86_64-linux-gnu \
@@ -167,17 +193,35 @@ Compile vim8.0:
 --enable-gui=gtk2 --enable-cscope --prefix=/usr
 
 	sudo make [VIMRUNTIMEDIR=/usr/share/vim/vim80]
+    (4 min)
 
 	sudo make install
+    (5 seconds)
 
 	make distclean
 	
+### The Greate vim configuration!!!
 	(https://github.com/spf13/spf13-vim)
 	curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
 	
 	( If you have a bash-compatible shell you can run the script directly:
           sh <(curl https://j.mp/spf13-vim3 -L)
 	)
+
+    sudo vim /etc/vim/vimrc.local
+    set relativenumber
+    <c-e> Toggle NerdTree
+    <leader>gs :Gstatus
+    <leader>gd :Gdiff
+    <leader>gc :Gcommit
+    <leader>gp :Git push
+    <leader>gw :Gwrite
+
+    <leader><leader>w (easy motion!)
+
+
+
+
 
 cd ~/
 wget https://raw.githubusercontent.com/losacii/ubuntuMemo/master/vim-config/vimrc-back
