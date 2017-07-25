@@ -1,6 +1,6 @@
-### init
-sudo su
-apt-get update
+Computer:
+  del('.') >> Boot >> HardDisk Drives >> select: USB or Sata
+  >> install ubuntu (no third party or updates)
 
 ### sudo-with-no-passwd:
 
@@ -8,28 +8,44 @@ apt-get update
 	losa ALL=(ALL) NOPASSWD: ALL
 	(write into /etc/sudoer.tmp)
 	
-### installs
-sudo apt-get instll net-tools
-sudo apt-get install openssh-server
-sudo /etc/init.d/ssh start
-	
 ### terminator
 sudo apt-get install terminator
     global: PuTTY style paste
     Profile: Copy on selection
     
-    alt + Q: broadcast off
     alt + A: broadcast All
+    alt + Q: broadcast off
+    F11: Fullscreen
+    Alt + <Direction>
+    C-f: find
+    C-v: paste
+    (F1 ~ F12 undefined)
+    
+### init
+sudo apt-get update
+	
+### installs
+sudo apt-get install net-tools
+sudo apt-get install openssh-server
+sudo /etc/init.d/ssh start
+
 
 ### git-core
 sudo apt-get install git-core
 
 ### Brightness
 setting: Brightness&Lock;
+keyboard:
+  <A-o>
+  <A-p>
     
 
 ### Git stuff:
-    cd ~/Documents
+    cd ~
+    mv Documents/ doc/
+    cd doc
+    mkdir Git
+    cd Git
     git clone https://github.com/losacii/ubuntuMemo.git
     git init
     git config --global user.name 'losacii'
