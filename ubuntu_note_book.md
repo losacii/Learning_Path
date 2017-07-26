@@ -268,3 +268,6 @@ sudo vim ~/.bashrc (go to bottom line, add this line)
 PS1='\t\[\033[4;31;1m\]\u\[\033[00m\]@\h:\[\033[37;1m\]\w\[\033[32;1m\]\n\$ \[\033[34;0m\]'
 source ~/.bashrc
 (then restart terminal, set the difference!!)
+
+
+11559-wddlnh

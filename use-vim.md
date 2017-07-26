@@ -1,10 +1,10 @@
 ### Dont use Arrow keys:
     h   j   k   l
     ^e  ^y  ^f  ^b
-    H   M   L   (   )
+    H   M   L   (   )   {   }
     gg  G   <lineNumber>gg   [[  ]]
 
-    (key caster: show wha't you are typing, on screen)
+    (key caster: show what you are typing, on screen)
 
 ### test Objects:
     w - words
@@ -65,6 +65,13 @@
 ### Upper/Lower Case:
     viWU
     viwu
+
+### Indent
+    5>>
+    >3k
+
+    Visully select multiple lines, the '>' or '<'
+
 
 ### Plugins
     - vundle - Plugin vimanager
