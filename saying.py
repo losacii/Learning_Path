@@ -15,6 +15,15 @@ while True:
     exit
 
     ttyplay -s 1.6 <fileName>
+
+    Ctrl_U - delete all before the cursor
+    Ctrl_Y - Paste the deleted commands
+    Cltl_l -
+    Ctrl_c - Abort commands
+
+    Github: ttygif
+    https://github.com/icholy/ttygif
+
 '''
 
 
