@@ -62,15 +62,28 @@
 ### Paste over
     yiw  viwp
 
+### Upper/Lower Case:
+    viWU
+    viwu
+
 ### Plugins
-    - vundle - Plugin manager
+    - vundle - Plugin vimanager
+
     - nerdtree - file drawer
         ma
+
     - ctrlP - fuzzy file finder
+
     - fugitive - git tool
+        :Gwrite
+        :Gcommit -m 'update-log'
+        :Gpush
+
     - syntastic - syntax checker/linter
 
+### What is tmux
+    Terminal multiplexer
+    View and control multple consoles
+    Preconfigure environments
 
-
-
-
+The Crazy fox jumped over the.lazy.dog.
