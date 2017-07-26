@@ -220,9 +220,6 @@ sudo ./configure --with-features=huge \
     <leader><leader>w (easy motion!)
 
 
-
-
-
 cd ~/
 wget https://raw.githubusercontent.com/losacii/ubuntuMemo/master/vim-config/vimrc-back
 mv vimr	.vimrc
