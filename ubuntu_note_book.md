@@ -27,6 +27,7 @@ sudo apt-get install terminator
 sudo apt-get update
 	
 ### installs
+
 sudo apt-get install net-tools
 sudo apt-get install openssh-server
 sudo /etc/init.d/ssh start
@@ -36,8 +37,11 @@ sudo /etc/init.d/ssh start
 sudo apt-get install git-core
 
 ### Brightness
+
 setting: Brightness&Lock;
+
 keyboard:
+
     A-o  : take a screenshot of an area [to clipboard]
     A-p  : take a screenshot of an area
 
