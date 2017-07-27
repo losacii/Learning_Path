@@ -271,38 +271,3 @@ source ~/.bashrc
 
 
 11559-wddlnh
-
-### Samba
-    sudo apt install samba samba-common-bin
-    Windows > share > advanced > advance > add ...
-    Ubuntu > FileManger > C-l > smb://192.168.20.16/e
-           > username,passwd,rememberforever > add bookmark
-
-### VirtualBox
-    sudo apt-get install virtualbox
-
-    [How to install Kali Linux in VirtualBox](https://www.youtube.com/watch?v=FVmWMogGX4Q)
-
-    VirtualBox >> New
-               >> Name:Kali, Type:Linux, Version:Debian(64-bit)
-               >> Memory: 4Gib
-               >> Create a virual hard disk now >> VDI  >> Dynamiclly..
-               >> 22.12GB
-               >> Settings: System   > Processor:4
-                            Storage  > ControllerIDE > Empty > (chose ISO on the right)
-                            Ok >> Start! >> Graphic install
-    Graphic install
-        language: English
-        location: HongKong
-        keyboard: American English
-        ... Guided - use entire disk
-        ... All files in one partition
-    
-    After install
-        settings > power > 5min -> never
-        privacy > Auto Screen Lock:Off
-        apt-get install ttyrec
-
-
-
-
