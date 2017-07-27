@@ -63,8 +63,11 @@
     yiw  viwp
 
 ### Upper/Lower Case:
-    viWU
-    viwu
+
+    Visully select, then 'U' to Upper, 'u' to Lower
+
+    viWU - Upper a word
+    viwu - Lower a word
 
 ### Indent
     5>>
