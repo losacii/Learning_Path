@@ -1,33 +1,32 @@
-losa@pc:~/Documents$ cat Dans-vim.txt
-step 0:
-        sudo su
-        cd
-        pwd
+step 0: Instal vim, git-core, wget
+    sudo su
+    cd
+    pwd
         (you'll see '/root')
-        apt-get install vim-nox-py2 git-core wget
+    apt-get install vim-nox-py2 git-core wget
 
-	(install python-pip)
+    	(install python-pip)
 	pip install jedi
 
 step 1: get the 'vimrc' file
         (thesheff17/youtube/master/vim/vimrc)
-        wget https://raw.githubusercontent.com/thesheff17/youtube/master/vim/vimrc
-	mv vimrc .vimrc
+    wget https://raw.githubusercontent.com/thesheff17/youtube/master/vim/vimrc
+    mv vimrc .vimrc
         (this overwrite your local .vimrc)
 
 step 2: '.vim' directory
-        (make '.vim' dir
-         create four directories under)
+            (make '.vim' dir
+        create four directories under)
         mkdir .vim && cd .vim
         mkdir autoload bundle colors ftplugin
 
         cd autoload
-        wget (raw ... tpope ... pathogen.vim)
+            (wget (raw ... tpope ... pathogen.vim))
         wget https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
         cd ../bundle
-        (get 6 plugin repos: ctrlp, nerdtree, python-mode, vim-nerdtree-tabs,
-         vim-powerline, vim-sensible)
+            (get 6 plugin repos: ctrlp, nerdtree, python-mode, vim-nerdtree-tabs,
+             vim-powerline, vim-sensible)
         git clone https://github.com/tpope/vim-sensible.git
         git clone https://github.com/kien/ctrlp.vim.git
         git clone https://github.com/scrooloose/nerdtree

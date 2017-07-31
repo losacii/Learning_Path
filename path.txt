@@ -1,16 +1,7 @@
-go https://github.com/losacii
-
 sudo apt install terminator
-set terminator
 
 sudo apt install python-pip
 pip install jedi
-
-install openssh-server
-  sudo apt install openssh-server
-  sudo apt install net-tools
-	sudo /etc/init.d/ssh start
-
 
 sudo-with-no-passwd:
 
@@ -31,9 +22,9 @@ install vim8 with python2 support!!!
   sudo apt-get install vim-nox-py2
   sudo update-alternatives --config vim
 
-  version check:
-    vim -version
-  uninstall:
+version check:
+    vim --version
+uninstall:
     sudo apt install ppa-purge && sudo ppa-purge ppa:jonathonf/vim
 
 sudo apt-get install exuberant-ctags
@@ -64,7 +55,7 @@ git config --global user.email 'losacii5@gmail.com'
 
 Jump git passwd:
 	cd /
-  git config --global credential.helper store
+git config --global credential.helper store
 
 <<<<<<< HEAD
 =======

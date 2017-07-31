@@ -16,3 +16,10 @@
 ### apt install terminator
     putty style paste
     copy on select
+
+### Hot keys
+    <Tab>    | it's for Order complete
+    C-l      | Clear Previous output
+    C-u      | Delete input
+    C-c      | Cancel operation
+    C-a  C-e | move cursor to begin/end 
