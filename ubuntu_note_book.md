@@ -1,5 +1,6 @@
 Computer:
-  del('.') >> Boot >> HardDisk Drives >> select: USB or Sata
+
+  Reboot > del('.') >> Boot >> HardDisk Drives >> select: USB or Sata
   >> install ubuntu (no third party or updates)
 
 ### sudo-with-no-passwd:
@@ -93,20 +94,20 @@ install chrome:
 
 
 ### Install gnome and arc!
-sudo apt-get install gnome-shell
-sudo sh -c "echo 'deb http://download.openSUSE.org/repositories/home:/Horst3180/xUbuntu_16.04/ /' >> /etc/apt/sources.list.d/arc-theme.list"
-sudo wget http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_16.04/Release.key
-sudo apt-key add -<Release.key
-sudo apt update
-sudo apt install arc-theme
-sudo apt install gnome-tweak-tool
-(Logout, login with Gnome, not wayland!)
+    sudo apt-get install gnome-shell
+    sudo sh -c "echo 'deb http://download.openSUSE.org/repositories/home:/Horst3180/xUbuntu_16.04/ /' >> /etc/apt/sources.list.d/arc-theme.list"
+    sudo wget http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_16.04/Release.key
+    sudo apt-key add -<Release.key
+    sudo apt update
+    sudo apt install arc-theme
+    sudo apt install gnome-tweak-tool
+    (Logout, login with Gnome, not wayland!)
 
-tweak: Check 'Global Dar Theme' >> Arc-Dark
-    Desktop: add Trash
-    Top Bar: show date, show Seconds, show Week numbers
-    Typing: CapsLock key behavior >> (bottom)Swap ESC and CapsLock
-    (Set a Wallpaper)
+    tweak: Check 'Global Dar Theme' >> Arc-Dark
+        Desktop: add Trash
+        Top Bar: show date, show Seconds, show Week numbers
+        Typing: CapsLock key behavior >> (bottom)Swap ESC and CapsLock
+        (Set a Wallpaper)
 
 ### System Settings:
 
@@ -121,25 +122,24 @@ tweak: Check 'Global Dar Theme' >> Arc-Dark
 
 sudo apt-get install unrar
 
-for opencv330:
+### Install opencv330:(÷–Œƒ≤‚ ‘£°)
 
-	sudo apt-get install build-essential
-
-	sudo apt-get install cmake
-	sudo apt-get install libgtk2.0-dev
-	sudo apt-get install pkg-config
-	sudo apt-get install libavcodec-dev
-	sudo apt-get install libavformat-dev
-	sudo apt-get install libswscale-dev
-
-	sudo apt-get install python-dev
-	sudo apt-get install python-numpy
-	sudo apt-get install libtbb2
-	sudo apt-get install libtbb-dev
-	sudo apt-get install libjpeg-dev
-	sudo apt-get install libpng-dev
-	sudo apt-get install libtiff-dev
-	sudo apt-get install libdc1394-22-dev
+	sudo apt-get install cmake build-essential \
+                     \
+	libgtk2.0-dev    \
+	pkg-config       \
+	libavcodec-dev   \
+	libavformat-dev  \
+	libswscale-dev   \
+                     \
+	python-dev       \
+	python-numpy     \
+	libtbb2          \
+	libtbb-dev       \
+	libjpeg-dev      \
+	libpng-dev       \
+	libtiff-dev      \
+	libdc1394-22-dev
 
 	git clone https://github.com/opencv/opencv.git
 	git clone https://github.com/opencv/opencv_contrib.git
