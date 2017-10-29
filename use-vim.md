@@ -40,6 +40,14 @@
     o  /  O   (below/above)
     x  /  X   (after/before)
 
+### Registers:
+    v"+y
+    "/
+    ":
+    "*
+    "%
+    <insertMode>^r
+
 ### History trace:
     :earlier 2m
     u  R
