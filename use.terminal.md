@@ -23,3 +23,4 @@
     C-u      | Delete input
     C-c      | Cancel operation
     C-a  C-e | move cursor to begin/end 
+### Just test it .....,w:w
