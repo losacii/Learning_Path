@@ -42,7 +42,7 @@ remove firefox:
   sudo apt-get autoremove firefox firefox-locale-en
 
 
-set wallpaper;
+set wallpapers;
 
 
 sudo apt install git
