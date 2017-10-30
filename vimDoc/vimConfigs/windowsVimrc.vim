@@ -48,6 +48,8 @@
 
     "Easily jump to begin of end of line
         nnoremap <leader><leader> ^
+        nnoremap <leader>hl :set nohlsearch!
+
         nnoremap <leader>. $
 
         inoremap <M-j> <Down>
