@@ -21,7 +21,8 @@
 	set pastetoggle=<F12>
     " Paste Current time
 	map <F2> i<C-R>=strftime("%c")<CR><Esc>
-    " ––∫≈ œ‘ æ/πÿ±’
+
+    " [ON / OFF] for line Numbers
     nnoremap ;l :set nonumber!<CR>:set norelativenumber!<CR>
 
 "mapleader things
