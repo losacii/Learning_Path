@@ -1,5 +1,6 @@
 " This is for vimrc on Windows:
-" READ FILE FROM: "c:\screencast\Vim\_vimrc"
+" READ FILE FROM: "-1read c:\screencast\Vim\_vimrc"
+" Download from URL: "wget -O _vimrc https://raw.githubusercontent.com/losacii/ubuntuMemo/master/vimDoc/vimConfigs/windowsVimrc.vim
 " Apply This: :! cp % c:\screencast\Vim\_vimrc
 " Basic settings:
 
@@ -58,7 +59,7 @@
         inoremap <M-u> <Home>
         inoremap <M-p> <End>
 
-        inoremap <M-,> <Backspace>
+        inoremap <M-,> <esc>xi
         inoremap <M-.> <Delete>
         nnoremap <M-,> hx
 
