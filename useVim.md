@@ -1,12 +1,24 @@
 ### Dont use Arrow keys:
     h   j   k   l
+    w   e   b   W   E   b
     ^e  ^y  ^f  ^b
     H   M   L   (   )   {   }
-    gg  G   <lineNumber>gg   [[  ]]
+    gg  G   <Number>gg   [[  ]]
 
     (key caster: show what you are typing, on screen)
 
-### test Objects:
+### put text
+    i   I   a   A   o   O
+    c   C   s   S
+
+### Delete / Change
+    d2j  d2k  d4e  d$  dd  dip  dib  dis  di"  di}  di)
+
+### Indent
+    >4j  >4k
+    >ip
+
+### test objects:
     w - words
     s - sentences
     p - paragraphs
