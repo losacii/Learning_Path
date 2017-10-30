@@ -1,0 +1,9 @@
+### losa@ub:~$ locate *vimrc
+/etc/vim/vimrc
+/home/losa/.vimrc
+/home/losa/.spf13-vim-3/.vimrc
+/home/losa/.vim/bundle/vundle/test/vimrc
+/snap/core/2381/etc/vim/vimrc
+/snap/core/2381/usr/share/vim/vimrc
+/usr/share/vim/vimrc
+

@@ -1,0 +1,33 @@
+https://github.com/oblitum/YouCompleteMe/
+https://github.com/Valloric/YouCompleteMe
+
+pip install jedi
+
+sudo apt-get install libclang-dev
+
+
+
+
+[cd bundle]
+git clone https://github.com/Valloric/YouCompleteMe.git
+
+[~/.vim/bundle$ cd YouCompleteMe/]
+git submodule update --init --recursive
+
+====================================================================
+losa@pc:~/.vim/bundle/YouCompleteMe$ 
+sudo apt-get install libclang-dev
+
+losa@pc:~/.vim/bundle/YouCompleteMe$
+ sudo apt-get install cmake
+
+losa@pc:~/ycm_build$ 
+sudo apt-get install python-dev python3-dev
+
+losa@pc:~/.vim/bundle/YouCompleteMe$ 
+./install.py --clang-completer
+./install.py
+
+losa@pc:~$ 
+wget https://raw.githubusercontent.com/losacii/ubuntuMemo/master/vim-config/vimrc-back
+
