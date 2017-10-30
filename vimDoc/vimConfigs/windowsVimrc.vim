@@ -4,26 +4,27 @@
 " Apply This: :! cp % c:\screencast\Vim\_vimrc
 " Basic settings:
 
-	syntax on
+    syntax on
     set number
     set relativenumber
-	set autoindent
-	set smartindent
-	set tabstop=4
-	set softtabstop=4
-	set shiftwidth=4
-	set shiftround
-	set expandtab
-	set expandtab
+    set autoindent
+    set smartindent
+    set tabstop=4
+    set softtabstop=4
+    set shiftwidth=4
+    set shiftround
+    set expandtab
+    set expandtab
     set hlsearch
     set ic " Ignore Case
+    
+    set mouse-=a
+    set pastetoggle=<F12>
 
-	set mouse-=a
-	set pastetoggle=<F12>
-    " Paste Current time
-	map <F2> i<C-R>=strftime("%c")<CR><Esc>
-
-    " [ON / OFF] for line Numbers
+" Paste Current time
+    map <F2> i<C-R>=strftime("%c")<CR><Esc>
+    
+" [ON / OFF] for line Numbers
     nnoremap ;l :set nonumber!<CR>:set norelativenumber!<CR>
 
 "mapleader things
