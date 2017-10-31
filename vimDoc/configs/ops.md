@@ -11,22 +11,20 @@
 ## READ FILE FROM: 
     "-1read c:/screencast/Vim/_vimrc"
 
-## git Cloud > local setting:
-    Download and Apply: 
+## git Cloud > setting
 
-## Local Altering Sync:
-    cp c:/screencast/Vim/_vimrc Documents/gitDoc/ubuntuMemo/vimDoc/vimConfigs/windowsVimrc.vim
+	wget -O c:\Users\Administrator\vimrc https://raw.githubusercontent.com/losacii/ubuntuMemo/master/vimDoc/configs/vsVimrc
 
-## Visual Studio vimrc file is in HomeFolder: "C:/Users/Administrator"
-    cp vimrc Documents/gitDoc/ubuntuMemo/vimDoc/vimConfigs/vsVimrc.vim
-    
-## VsVimrc: Pull and Apply Vsvimrc
-
-    wget -O C:/Users/Administrator/vimrc https://raw.githubusercontent.com/losacii/ubuntuMemo/master/vimDoc/configs/vsVimrc.vim 
-
-## git Dir to Local
-    (C:/Users/Administrator)
-    cd Documents/gitDoc/ubuntuMemo
-    git pull
+	wget -O c:\screencast\Vim\_vimrc https://raw.githubusercontent.com/losacii/ubuntuMemo/master/vimDoc/configs/winCmderVimrc
 
 
+## git local dir > setting
+	cp c:\Users\Administrator\Documents\gitDoc\ubuntuMemo\vimDoc\configs\vsVimrc.vim c:\Users\Administrator\vimrc
+
+	cp c:\Users\Administrator\Documents\gitDoc\ubuntuMemo\vimDoc\configs\windowsVimrc.vim c:\screencast\Vim\_vimrc
+
+
+## setting > git local 
+	cp c:\Users\Administrator\vimrc c:\Users\Administrator\Documents\gitDoc\ubuntuMemo\vimDoc\configs\vsVimrc.vim
+
+	cp c:\screencast\Vim\_vimrc c:\Users\Administrator\Documents\gitDoc\ubuntuMemo\vimDoc\configs\windowsVimrc.vim
