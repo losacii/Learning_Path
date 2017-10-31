@@ -1,6 +1,10 @@
-Computer:
+## Computer:
 
-  Reboot > del('.') >> Boot >> HardDisk Drives >> select: USB or Sata
+  Reboot 
+  > del('.') 
+  >> Boot 
+  >> HardDisk Drives 
+  >> select: USB or Sata
   >> install ubuntu (no third party or updates)
 
 ### sudo-with-no-passwd:
@@ -9,55 +13,52 @@ Computer:
 	losa ALL=(ALL) NOPASSWD: ALL
 	(write into /etc/sudoer.tmp)
 	
-### terminator
-sudo apt-get install terminator
-    global: PuTTY style paste
-    Profile: Copy on selection
-    view Transparent: Profile >> Background >> transparent 80%
-    
-    alt + A: broadcast All
-    alt + Q: broadcast off
-    F11: Fullscreen
-    Alt + <Direction>
-    <F9>: find
-    C-v: paste
-    (F1 ~ F12 undefined)
-    
+### App: terminator
+
+    sudo apt-get install terminator
+
+        global: PuTTY style paste
+        Profile: Copy on selection
+        view Transparent: Profile >> Background >> transparent 80%
+
+        alt + A: broadcast All
+        alt + Q: broadcast off
+        F11: Fullscreen
+        Alt + <Direction>
+        <F9>: find
+        C-v: paste
+        (F1 ~ F12 undefined)
+        
     
 ### init
-sudo apt-get update
+
+    sudo apt-get update
 	
-### installs
+### Install: openssh
 
 sudo apt-get install net-tools
 sudo apt-get install openssh-server
 sudo /etc/init.d/ssh start
 
 
-### git-core
-sudo apt-get install git-core
+### Install: git, wget
+    sudo apt-get install git-core
+    choco install git
 
-### Brightness
 
-setting: Brightness&Lock;
+### keyboard:
 
-keyboard:
-
-    A-o  : take a screenshot of an area [to clipboard]
-    A-p  : take a screenshot of an area
+    A-z  : take a screenshot of an area [to clipboard]
+    A-x  : take a screenshot of an area
 
     A-1  : Volume Down
     A-2  : volume Up
     A-0  : mute
 
-    
-
 ### Git stuff:
-    cd ~
-    mv Documents/ doc/
-    cd doc
-    mkdir Git
-    cd Git
+
+    (Clone from github)
+    cd <gitDir>
     git clone https://github.com/losacii/ubuntuMemo.git
     git init
     git config --global user.name 'losacii'
@@ -69,8 +70,7 @@ keyboard:
 
     git add .
     git commit -m 'update'
-    git push
-    (git pull)
+    git push ("git pull" for Download Sync)
 
     git remote rm origin
     git remote add origin git@github.com:username/repository.git
@@ -84,8 +84,7 @@ keyboard:
 	xmodmap .speedswapper
     Gnome setting can do this!
 
-(firefox is slow! so chrome!)
-install chrome:
+## Install chrome:
 
   sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
   wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
@@ -122,10 +121,9 @@ install chrome:
 
 sudo apt-get install unrar
 
-### Install opencv330:(ÖÐÎÄ²âÊÔ£¡)
+### Install opencv330:
 
 	sudo apt-get install cmake build-essential \
-                     \
 	libgtk2.0-dev    \
 	pkg-config       \
 	libavcodec-dev   \
@@ -163,14 +161,17 @@ sudo apt-get install unrar
 	import cv2
 	cv2.__version__
 
-sudo apt install python-pip python3-pip
-(pip: package will be installed in 2.7/sitepackages, and ...)
+### pip on linux:
+    sudo apt install python-pip python3-pip
+    (pip: package will be installed in 2.7/sitepackages, and ...)
 
-sudo apt install ipython
+### Ipythoh:
+    sudo apt install ipython
 
-" pip install jedi
+### Jedi python:
+    " pip install jedi
 
-Compile vim8.0:
+### Compile vim8.0:
 
 	sudo apt-get install libncurses5-dev
 	cd ~
@@ -181,20 +182,20 @@ Compile vim8.0:
 	sudo apt-get install python3-pip
 
 
-sudo apt-get install libncurses5-dev libgnome2-dev libgnomeui-dev \
-libgtk2.0-dev libatk1.0-dev libbonoboui2-dev \
-libcairo2-dev libx11-dev libxpm-dev libxt-dev python-dev \
-python3-dev lua5.1 lua5.1-dev git
-            
-(if you just copy vim from your Usb Disk, you need chmod it)
-" chmod -R 777 vim/
+    sudo apt-get install libncurses5-dev libgnome2-dev libgnomeui-dev \
+    libgtk2.0-dev libatk1.0-dev libbonoboui2-dev \
+    libcairo2-dev libx11-dev libxpm-dev libxt-dev python-dev \
+    python3-dev lua5.1 lua5.1-dev git
+                
+    (if you just copy vim from your Usb Disk, you need chmod it)
+    " chmod -R 777 vim/
 
-sudo ./configure --with-features=huge \
---enable-multibyte \
---enable-pythoninterp \
---with-python-config-dir=/usr/lib/python2.7/config-x86_64-linux-gnu \
---enable-luainterp \
---enable-gui=gtk2 --enable-cscope --prefix=/usr
+    sudo ./configure --with-features=huge \
+    --enable-multibyte \
+    --enable-pythoninterp \
+    --with-python-config-dir=/usr/lib/python2.7/config-x86_64-linux-gnu \
+    --enable-luainterp \
+    --enable-gui=gtk2 --enable-cscope --prefix=/usr
 
 	sudo make [VIMRUNTIMEDIR=/usr/share/vim/vim80]
     (4 min)
@@ -205,6 +206,7 @@ sudo ./configure --with-features=huge \
 	make distclean
 	
 ### The Greate vim configuration!!!
+
 	(https://github.com/spf13/spf13-vim)
 	curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
 	
@@ -224,65 +226,69 @@ sudo ./configure --with-features=huge \
     <leader><leader>w (easy motion!)
 
 
-cd ~/
-wget https://raw.githubusercontent.com/losacii/ubuntuMemo/master/vim-config/vimrc-back
-mv vimr	.vimrc
+### Dan's Vim-Python Setup
+    cd ~/
+    wget https://raw.githubusercontent.com/losacii/ubuntuMemo/master/vim-config/vimrc-back
+    mv vimr	.vimrc
 
-mkdir .vim && cd .vim
-mkdir autoload bundle colors ftplugin
+    mkdir .vim && cd .vim
+    mkdir autoload bundle colors ftplugin
 
-cd autoload
-wget https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+    cd autoload
+    wget https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
-cd ../bundle
-git clone https://github.com/tpope/vim-sensible.git
-git clone https://github.com/kien/ctrlp.vim.git
-git clone https://github.com/scrooloose/nerdtree
-git clone https://github.com/Lokaltog/vim-powerline.git
-git clone https://github.com/jistr/vim-nerdtree-tabs.git
+    cd ../bundle
+    git clone https://github.com/tpope/vim-sensible.git
+    git clone https://github.com/kien/ctrlp.vim.git
+    git clone https://github.com/scrooloose/nerdtree
+    git clone https://github.com/Lokaltog/vim-powerline.git
+    git clone https://github.com/jistr/vim-nerdtree-tabs.git
 
-cd ../colors
-wget https://raw.githubusercontent.com/thesheff17/youtube/master/vim/wombat256mod.vim
+    cd ../colors
+    wget https://raw.githubusercontent.com/thesheff17/youtube/master/vim/wombat256mod.vim
 
-cd ../ftplugin
-wget https://raw.githubusercontent.com/thesheff17/youtube/master/vim/python_editing.vim
+    cd ../ftplugin
+    wget https://raw.githubusercontent.com/thesheff17/youtube/master/vim/python_editing.vim
 
-cd ../bundle/
-git clone https://github.com/Valloric/YouCompleteMe.git
-cd YouCompleteMe/
-git submodule update --init --recursive
+### You Complete Me:
+    cd ../bundle/
+    git clone https://github.com/Valloric/YouCompleteMe.git
+    cd YouCompleteMe/
+    git submodule update --init --recursive
 
-( cd ..
-  tar czvf YoucompletemeDown.tar YouCompleteMe/ )
+    ( cd ..
+    tar czvf YoucompletemeDown.tar YouCompleteMe/ )
 
-sudo apt-get install clang-4.0
+    sudo apt-get install clang-4.0
 
-./install.py --clang-completer
-(##
-
-
+    ./install.py --clang-completer
+    (##
 
 
 https://github.com/ets-labs/python-vimrc
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ets-labs/python-vimrc/master/setup.sh)"
 ~/.vim/bundle/YouCompleteMe/install.py --clang-completer
 
-(Change appearance of terminal!)
-sudo vim ~/.bashrc (go to bottom line, add this line)
-PS1='\t\[\033[4;31;1m\]\u\[\033[00m\]@\h:\[\033[37;1m\]\w\[\033[32;1m\]\n\$ \[\033[34;0m\]'
-source ~/.bashrc
-(then restart terminal, set the difference!!)
+### Change appearance of terminal!
 
+    sudo vim ~/.bashrc 
 
-11559-wddlnh
+    (go to bottom line, add this line)
+    PS1='\t\[\033[4;31;1m\]\u\[\033[00m\]@\h:\[\033[37;1m\]\w\[\033[32;1m\]\n\$ \[\033[34;0m\]'
+
+    source ~/.bashrc
+    (then restart terminal, set the difference!!)
+
 
 ### Samba
     sudo apt install samba samba-common-bin
     Windows > share > advanced > advance > add ...
-    Ubuntu > FileManger > C-l > smb://192.168.20.16/e
-           > username,passwd,rememberforever > add bookmark
+    Ubuntu > FileManger 
+           > Ctrl + l > smb://192.168.20.16/e
+           > username, passwd, rememberforever > add bookmark
 
 ### VirtualBox
+
     sudo apt-get install virtualbox
 
     [How to install Kali Linux in VirtualBox](https://www.youtube.com/watch?v=FVmWMogGX4Q)
@@ -306,7 +312,3 @@ source ~/.bashrc
         settings > power > 5min -> never
         privacy > Auto Screen Lock:Off
         apt-get install ttyrec
-
-
-
-
