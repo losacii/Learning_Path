@@ -1,6 +1,7 @@
 ## Local Directories
     c:/Users/Administrator/vimrc
     c:/screencast/Vim/_vimrc
+    ~/.SpaceVim.d/init.vim
 
 ## git repository:
     git clone https://github.com/losacii/ubuntuMemo.git
