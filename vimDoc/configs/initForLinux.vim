@@ -125,4 +125,4 @@ let g:clang2_placeholder_prev = ''
         nnoremap ;u <esc>viwU
 
     " Choose Colorscheme
-        nnoremap <leader>c :colorscheme <C-d>
+        nnoremap <leader>cc :colorscheme <C-d>
