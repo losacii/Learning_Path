@@ -1,7 +1,6 @@
 " C:\tools\neovim\Neovim\share\nvim\sysinit.vim
 
 " Basic settings:
-
     syntax on
     set number
     set relativenumber
@@ -15,18 +14,17 @@
     set expandtab
     set hlsearch
     set ic " Ignore Case
-    
+
     set mouse-=a
     set pastetoggle=<F12>
 
 " Paste Current time
     map <F2> i<C-R>=strftime("%c")<CR><Esc>
-    
+
 " [ON / OFF] for line Numbers
     nnoremap ;l :set nonumber!<CR>:set norelativenumber!<CR>
 
 "mapleader things
-
     "Set mapleader
         let mapleader=','
 
