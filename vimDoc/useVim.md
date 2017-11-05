@@ -1,4 +1,5 @@
 ### Dont use Arrow keys:
+
     h   j   k   l
     w   e   b   W   E   b
     ^e  ^y  ^f  ^b
@@ -8,6 +9,7 @@
     (key caster: show what you are typing, on screen)
 
 ### put text
+
     i   I   a   A   o   O
     c   C   s   S
 
@@ -95,7 +97,6 @@
 
     Visully select multiple lines, the '>' or '<'
 
-
 ### Plugins
     - vundle - Plugin vimanager
 
@@ -116,4 +117,4 @@
     View and control multple consoles
     Preconfigure environments
 
-The Crazy fox jumped over the.lazy.dog.
+THE CRAZY FOX JUMPED OVER THE.LAZY.DOG.

@@ -15,14 +15,14 @@
             let mapleader=','
 
         "Save file
-            nnoremap <leader>w <esc>:up<cr>"±£´æ
-            inoremap <leader>w <esc>:up<cr>
+            nnoremap <leader>fs <esc>:up<cr>
+            inoremap <leader>fs <esc>:up<cr>
 
         "Quit all
-            nnoremap <leader>E <esc>:qa!<cr>"Ö±½ÓÍË³ö
-            inoremap <leader>E <esc>:qa!<cr>
-            nnoremap <leader>e <esc>:q!<cr>"Ö±½ÓÍË³ö
-            inoremap <leader>e <esc>:q!<cr>
+            nnoremap <leader>fx <esc>:q!<cr>
+            inoremap <leader>fx <esc>:q!<cr>
+            nnoremap <leader>sx <esc>:wqa!<cr>
+            inoremap <leader>sx <esc>:wqa!<cr>
 
         "Run python code
             inoremap <leader>x <esc>:! python %<cr>
@@ -34,9 +34,10 @@
 
             nnoremap <leader>. $
 
+            inoremap <M-h> <Left>
             inoremap <M-j> <Down>
             inoremap <M-k> <Up>
-            inoremap <M-h> <Left>
+            inoremap <M-l> <Right>
 
             inoremap <M-i> <esc>bi
             inoremap <M-o> <esc>ea
@@ -47,13 +48,19 @@
             inoremap <M-.> <Delete>
             nnoremap <M-,> hx
 
+        "Jump between Splits
+            nnoremap <M-l> <C-w>l
+            nnoremap <M-h> <C-w>h
+            nnoremap <M-j> <C-w>j
+            nnoremap <M-k> <C-w>k
+
         " Add Empty Lines
             inoremap <c-j> <esc>o<esc>kA
-            inoremap <c-k> <esc>O<esc>jA
+            "inoremap <c-k> <esc>O<esc>jA
+
             nnoremap <c-j> o<esc>k
             nnoremap <c-k> O<esc>j
 
-            bs
             nnoremap <leader>to <esc>:tabnew<space>
             nnoremap <leader>t, <esc>:tabNext<cr>
             nnoremap <leader>t. <esc>:tabnext<cr>
@@ -73,6 +80,14 @@
             inoremap ;u <esc>viwUea
             nnoremap ;u <esc>viwU
 
-        " Color Select
-            nnoremap <leader>cc :colorscheme <C-d>
+        "" Color Select
+            nnoremap ;cc <esc>:colorscheme<space>
+			imap <expr><CR> neosnippet#expandable() ? "\<Plug>(neosnippet_expand)" : "\<CR>"
+
+		" resize split
+			map = <c-w>>
+			map - <c-w><
+
+
+
 

@@ -1,0 +1,21 @@
+vim Basics:
+    
+    " Motions:
+
+        h j k l
+        w e b W E B
+        gg    G    <number>gg
+
+
+Linux - commands
+
+windows
+
+Hard link and Soft link
+
+    " make hard link:
+    link file_path_A file_path_B
+
+    " make soft link:
+    link -s file_path_C file_path_D
+
