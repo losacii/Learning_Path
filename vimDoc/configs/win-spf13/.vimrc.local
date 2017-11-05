@@ -15,14 +15,14 @@
             let mapleader=','
 
         "Save file
-            nnoremap <leader>fs <esc>:up<cr>
-            inoremap <leader>fs <esc>:up<cr>
+            nnoremap <leader>fw <esc>:up<cr>
+            inoremap <leader>fw <esc>:up<cr>
 
         "Quit all
-            nnoremap <leader>fx <esc>:q!<cr>
-            inoremap <leader>fx <esc>:q!<cr>
-            nnoremap <leader>sx <esc>:wqa!<cr>
-            inoremap <leader>sx <esc>:wqa!<cr>
+            nnoremap <leader>fe <esc>:q!<cr>
+            inoremap <leader>fe <esc>:q!<cr>
+            nnoremap <leader>fE <esc>:wqa!<cr>
+            inoremap <leader>fE <esc>:wqa!<cr>
 
         "Run python code
             inoremap <leader>x <esc>:! python %<cr>
