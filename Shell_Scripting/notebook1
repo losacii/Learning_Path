@@ -1,0 +1,101 @@
+Command: clear, who am i, pwd, alias, unalias
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+    clear
+
+    who am i
+
+    alias shpi=ssh pi@RASPBERRYPI
+    unalias shpi
+
+    pwd
+
+Calender:
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+    cal
+
+    cal 7 1984
+
+    cal feb 2033
+
+Date:
+    
+    date
+
+    date '+DATE: %y-%y-%d%nTIME:%H:%M:%S'
+
+Command: Create/Remove  files/dirs(folders)
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+    touch <filename>
+    touch f0 f1 f2
+
+    rm f0 f1 f2
+    rm *
+    rm *.dat
+
+    mkdir <dirName>
+    mkdir d0 d1 d2
+    mkdir Documents/subfolder
+
+    rm -r <dirName>
+    rmdir <dirName>
+
+cat for write/read files:
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+    cat > <filename><enter>
+    put stuff
+    ....<enter>
+    <ctrl + d> for "save and quit"
+
+    cat f1 f2 > sample  |  write f1 and f2 into sample
+
+    cat sample
+
+    cat f1 f2
+
+How to Copy/Move/Rename  files/folders
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+    cp  file_path_A  file_path_B
+
+    cp/mv  <files>  <dirName>
+
+    mv  <files>  <dirName>
+
+Link 2 files
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+    ln f1 f2  |  (default) hard link is a  copy, edited simultaineously
+
+    ln -s f1 f2  |  soft link is just an icon(pointer) linked to oringal file
+
+Permissions:
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+    111 > 7  for read/write/execute
+    110 > 6  for read/write/NULL
+
+    umask is a system variable
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+"ls" command
+
+    ls
+
+    ls <DirName>
+
+    ls -l    |   for long listing
+    ls -a    |   for all
+    ls -la
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+

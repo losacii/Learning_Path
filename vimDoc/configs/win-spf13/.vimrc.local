@@ -1,7 +1,9 @@
+" ln D:\doc\gitDocs\ubuntuMemo\vimDoc\configs\win-spf13\.vimrc.local %home%/.vimrc.local
 " Personal Setting
 
     " Init
     set relativenumber
+    syntax off
 
     " Paste Current time
         map <F2> i<C-R>=strftime("%c")<CR><Esc>
