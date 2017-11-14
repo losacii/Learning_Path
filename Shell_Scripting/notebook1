@@ -80,8 +80,8 @@ Permissions:
 
     umask is a system variable
 
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 "ls" command
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
     ls
 
@@ -91,6 +91,56 @@ Permissions:
     ls -a    |   for all
     ls -la
 
+chmod, uname
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+    uname -a   |  username all
+
+    chmod 666 <fileName>
+    chmod 777 <fileName>
+
+Word Count: wc <filename>
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+    wc -l <fname>
+    wc -w <fname>
+    wc -c <fname>
+    wc    <fname>
+
+sort lines
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+    sort <filename>  |  show sorted file contents, file is not changed.
+
+cut data field
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+cat > players
+Name, Sport, Age
+Roger, Tennis, 30
+Rafel Nadal, Golf, 37
+Michel Phelps, Swimming, 27
+Kobe Bryant, Basketball, 34
+<Ctrl + d>
+
+cut -d", " -f 1,3 players
+
+dd is used for file conversion
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+    dd if=jazzy of=outfile conv=ucase
+
+man <command> : Hints showing how to use a command
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+    man <command>
+
+compress, zcat, uncompress
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+    compress -v <fileName>
+    zcat <fileName>
+    uncompress <fileName>
+
+.sh file
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+echo "hello world!"
 
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
