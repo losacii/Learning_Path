@@ -1,5 +1,3 @@
-# backup local source list: cp /etc/apt/source.list /etc/apt/source.list.bak
-# wget -O /etc/apt/source.list https://raw.githubusercontent.com/losacii/ubuntuMemo/master/ubunSettings/sourceList
 
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ zesty main restricted universe multiverse
 # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ zesty main restricted universe multiverse
