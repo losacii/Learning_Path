@@ -1,11 +1,12 @@
 ## Computer:
 
-  Reboot 
-  > del('.') 
-  >> Boot 
-  >> HardDisk Drives 
-  >> select: USB or Sata
-  >> install ubuntu (no third party or updates)
+  Reboot
+  del('.')
+  Boot
+  HardDisk Drives
+  select: USB or Sata
+
+## install ubuntu (no third party or updates)
 
 ### sudo-with-no-passwd:
 
@@ -28,23 +29,19 @@
         <F9>: find
         C-v: paste
         (F1 ~ F12 undefined)
-        
     
 ### init
-
     sudo apt-get update
-	
+
 ### Install: openssh
 
-sudo apt-get install net-tools
-sudo apt-get install openssh-server
-sudo /etc/init.d/ssh start
-
+    sudo apt-get install net-tools
+    sudo apt-get install openssh-server
+    sudo /etc/init.d/ssh start
 
 ### Install: git, wget
     sudo apt-get install git-core
     choco install git
-
 
 ### keyboard:
 
@@ -81,7 +78,7 @@ sudo /etc/init.d/ssh start
 
 ### swap Esc with CapsLock:
 
-	xmodmap .speedswapper
+    xmodmap .speedswapper
     Gnome setting can do this!
 
 ## Install chrome:
@@ -90,7 +87,6 @@ sudo /etc/init.d/ssh start
   wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
   sudo apt-get update
   sudo apt-get install google-chrome-stable
-
 
 ### Install gnome and arc!
     sudo apt-get install gnome-shell
@@ -118,8 +114,6 @@ sudo /etc/init.d/ssh start
     Super+L : Lock Screen
 
     Super + 1/2/3/4: go to Workspace
-
-sudo apt-get install unrar
 
 ### Install opencv330:
 
@@ -186,7 +180,7 @@ sudo apt-get install unrar
     libgtk2.0-dev libatk1.0-dev libbonoboui2-dev \
     libcairo2-dev libx11-dev libxpm-dev libxt-dev python-dev \
     python3-dev lua5.1 lua5.1-dev git
-                
+
     (if you just copy vim from your Usb Disk, you need chmod it)
     " chmod -R 777 vim/
 
@@ -224,7 +218,6 @@ sudo apt-get install unrar
     <leader>gw :Gwrite
 
     <leader><leader>w (easy motion!)
-
 
 ### Dan's Vim-Python Setup
     cd ~/
@@ -264,7 +257,6 @@ sudo apt-get install unrar
     ./install.py --clang-completer
     (##
 
-
 https://github.com/ets-labs/python-vimrc
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ets-labs/python-vimrc/master/setup.sh)"
 ~/.vim/bundle/YouCompleteMe/install.py --clang-completer
@@ -278,7 +270,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ets-labs/python-vimrc/mast
 
     source ~/.bashrc
     (then restart terminal, set the difference!!)
-
 
 ### Samba
     sudo apt install samba samba-common-bin
@@ -307,8 +298,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ets-labs/python-vimrc/mast
         keyboard: American English
         ... Guided - use entire disk
         ... All files in one partition
-    
+
     After install
         settings > power > 5min -> never
         privacy > Auto Screen Lock:Off
         apt-get install ttyrec
+
+
+" End line here!
