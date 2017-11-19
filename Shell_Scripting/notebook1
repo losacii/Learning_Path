@@ -20,10 +20,10 @@ Calender:
     cal feb 2033
 
 Date:
-    
+
     date
 
-    date '+DATE: %y-%y-%d%nTIME:%H:%M:%S'
+    date '+DATE: %Y-%m-%d%nTIME:%H:%M:%S'
 
 Command: Create/Remove  files/dirs(folders)
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
