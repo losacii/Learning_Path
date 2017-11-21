@@ -1,0 +1,14 @@
+
+cd ~/Documents
+git clone https://github.com/losacii/ubuntuMemo.git
+ln  ~/Documents/ubuntuMemo/vimDoc/configs/init_for_Spacevim.vim \
+~/.SpaceVim.d/init.vim
+
+echo -e "\n... Backing up ~/.SpaceVim.d/init.vim"
+cp ~/.SpaceVim.d/init.vim ~/.SpaceVim.d/init.vim.bak
+echo ... Done!
+
+echo -e "\nAlternative way:\n... Get and replacing  local: ~/.SpaceVim.d/init.vim"
+wget -O ~/.SpaceVim.d/init.vim \
+https://raw.githubusercontent.com/losacii/ubuntuMemo/master/vimDoc/configs/initForLinux.vim
+echo ... Done!
