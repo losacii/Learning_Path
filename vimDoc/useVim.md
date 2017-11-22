@@ -1,17 +1,35 @@
-### Dont use Arrow keys:
+### Motions
 
     h   j   k   l
     w   e   b   W   E   b
-    ^e  ^y  ^f  ^b
-    H   M   L   (   )   {   }
-    gg  G   <Number>gg   [[  ]]
+    0   ^   $
 
-    (key caster: show what you are typing, on screen)
+        alias cdg=cd /d d:\doc\gitDoc\ubuntuMemo
+        alias cdh=cd /d c:\Users\Administrator
+        unalias=alias /d $1
+        vi=vim $*
+
+### Motions
+
+    ^f  ^b  - move one  page down/up 
+
+    ^d  ^u  - move half page down/up
+
+    H  M  L  - high / middle / low
+
+    ^e  ^y
+
+    (  )  {  }
+
+    [[  ]]
+
+    gg   G   <num>gg
 
 ### put text
 
     i   I   a   A   o   O
     c   C   s   S
+    c2j  ci(  ci"
 
 ### Delete / Change
     d2j  d2k  d4e  d$  dd  dip  dib  dis  di"  di}  di)
@@ -19,18 +37,18 @@
 ### Indent
     >4j  >4k
     >ip
+    <<   >>
+    5>>  >3k
 
-### test objects:
-    w - words
-    s - sentences
-    p - paragraphs
-    t - tags
+    Visully select multiple lines, the '>' or '<'
 
-    a - all
-    i - in
+### Text Objects:
+    w - words    s - sentences
+    p - paragraphs    t - tags
+
+    a - all   i - in
     t - till
-    f - find (forward)
-    F - find (backward)
+    f/F - find forward/backward
 
 ### Commands:
     d - delete    D - till end
@@ -42,25 +60,23 @@
 
 ### Reapeat with '.'
     commands between ESCs
-
-    You can C-v to select, then repeat a operation with '.'
+    You can C-v to select many words, apply operation with '.'
 
 ### Additional commands:
+    x  /  X   (after/before)
+    p  /  P   (after/before)(below/above)
     dd /  yy  (whole line)
     D  /  C   (till line end)
-    ^  /  $
-    I  /  A
-    p  /  P   (after/before)(below/above)
     o  /  O   (below/above)
-    x  /  X   (after/before)
 
 ### Registers:
     v"+y
+    "+<motion>   "+p
     "/
     ":
     "*
     "%
-    <insertMode>^r
+    <insertMode>^r<math-expression>
 
 ### History trace:
     :earlier 2m
@@ -90,12 +106,7 @@
 
     viWU - Upper a word
     viwu - Lower a word
-
-### Indent
-    5>>
-    >3k
-
-    Visully select multiple lines, the '>' or '<'
+    g~~   gUU   guu
 
 ### Plugins
     - vundle - Plugin vimanager
