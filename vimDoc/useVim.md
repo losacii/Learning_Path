@@ -78,6 +78,13 @@
     :-1read <filepath>
     :r !<command>
 
+## Visully Select, then press '=' to align
+    a
+      b
+    c
+        d
+     e
+
 ## Replace text
     :s/foo/bar/g     - replace on current line
     :%s/foo/bar/g    - replace all foos with bar in file
@@ -104,7 +111,7 @@
     u  R
     esc == ^[
 
-## Marcro
+## Marcro: record and play
     (record a macro)
     q<register>
     (do the things)
@@ -114,6 +121,9 @@
     @<register>
 
     You can C-v select, then play macro
+
+## vim plus plus increment
+    >
 
 ## Mark Position
     ma mb mc  'a 'b 'c
