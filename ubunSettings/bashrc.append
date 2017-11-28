@@ -1,0 +1,8 @@
+
+echo -e "~/Documents/ubuntuMemo/vimDoc/configs/init_for_Spacevim.vim"
+echo -e  "is RC file for Spacevim. make change and upload it with git."
+alias rcfile='vi ~/Documents/ubuntuMemo/vimDoc/configs/init_for_Spacevim.vim'
+
+echo 'cdg' to go to git-ubuntuMemo
+alias cdg='cd ~/Documents/ubuntuMemo'
+echo PS1=\"\n[\t]....\$PS1\n▶ \"

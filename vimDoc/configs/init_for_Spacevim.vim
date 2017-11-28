@@ -47,6 +47,7 @@ let g:clang2_placeholder_next = ''
 let g:clang2_placeholder_prev = ''"}}}
 "-------------------- losacii's Settings------------------------
 "Basic settings:"{{{
+    set path+=**
     syntax on
     set autoindent
     set smartindent
@@ -56,6 +57,7 @@ let g:clang2_placeholder_prev = ''"}}}
     set shiftround
     set expandtab
     set pastetoggle=<F12>
+    set ic
 "}}}
 " mouse select past not infected"{{{
     if has('mouse')
@@ -119,7 +121,4 @@ let g:clang2_placeholder_prev = ''"}}}
         nnoremap ;U <esc>viw~ea
         inoremap ;u <esc>viw~
         nnoremap ;u <esc>viw~
-"}}}
-    " Choose Colorscheme"{{{
-        nnoremap <leader>cc :colorscheme <C-d>
 "}}}
