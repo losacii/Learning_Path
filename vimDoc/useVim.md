@@ -148,7 +148,7 @@
     gT  - go to Next tab
     :tabnew <filename>  - create a new tab
 
-Auto Completion:
+## Auto Completion:
     Syntax completion in insert mode:
         <C-n>  - next default completion
         <C-p>  - previous ...
@@ -253,5 +253,17 @@ Auto Completion:
     ddO instead of S
     dbx instead of daw
     gUit
+
+## Foldings
+    "Add these 2 lines to RC file, save and load folds automatically"
+    au BufWinLeave * mkview
+    au BufWinEnter * silent loadview
+
+## Further Resouces
+    Practical Vim by Drew Neil
+    Vimcasts by Drew Neil
+    Vimtips wiki
+    Vundle
+    Vim Awesome
 
 THE CRAZY FOX JUMPED OVER THE.LAZY.DOG.

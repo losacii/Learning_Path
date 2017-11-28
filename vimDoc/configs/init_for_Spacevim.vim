@@ -122,3 +122,6 @@ let g:clang2_placeholder_prev = ''"}}}
         inoremap ;u <esc>viw~
         nnoremap ;u <esc>viw~
 "}}}
+
+au BufWinLeave * mkview
+au BufWinEnter * silent loadview
