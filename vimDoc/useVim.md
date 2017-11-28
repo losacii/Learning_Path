@@ -1,4 +1,4 @@
-### Motions
+## Motions
 
     h   j   k   l
     w   e   b   W   E   b
@@ -9,9 +9,9 @@
         unalias=alias /d $1
         vi=vim $*
 
-### Motions
+## Motions
 
-    ^f  ^b  - move one  page down/up 
+    ^f  ^b  - move one  page down/up
 
     ^d  ^u  - move half page down/up
 
@@ -25,16 +25,16 @@
 
     gg   G   <num>gg
 
-### put text
+## put text
 
     i   I   a   A   o   O
     c   C   s   S
     c2j  ci(  ci"
 
-### Delete / Change
+## Delete / Change
     d2j  d2k  d4e  d$  dd  dip  dib  dis  di"  di}  di)
 
-### Indent
+## Indent
     >4j  >4k
     >ip
     <<   >>
@@ -42,7 +42,7 @@
 
     Visully select multiple lines, the '>' or '<'
 
-### Text Objects:
+## Text Objects:
     w - words    s - sentences
     p - paragraphs    t - tags
 
@@ -50,7 +50,7 @@
     t - till
     f/F - find forward/backward
 
-### Commands:
+## Commands:
     d - delete    D - till end
     c - change    C - till end
     y - yank      Y - till end
@@ -58,19 +58,40 @@
 
     yi)  vap  dt,  di'  ca[  va"
 
-### Reapeat with '.'
+## Reapeat with '.'
     commands between ESCs
     You can C-v to select many words, apply operation with '.'
 
-### Additional commands:
+## Buffers
+    :edit <filename>
+    :ls  - show buffers
+    :b <number>
+
+## Windows
+    <C-w>L  - Swap Position
+    <C-w>l  - Switch Focus
+    :vs <finelane>
+    :vs
+
+## External commands
+    :!<command>
+    :-1read <filepath>
+    :r !<command>
+
+## Replace text
+    :s/foo/bar/g     - replace on current line
+    :%s/foo/bar/g    - replace all foos with bar in file
+    (g means global)
+
+## Additional commands:
     x  /  X   (after/before)
     p  /  P   (after/before)(below/above)
     dd /  yy  (whole line)
     D  /  C   (till line end)
     o  /  O   (below/above)
 
-### Registers:
-    v"+y
+## Registers:
+    v"+y   v"ay  "ap
     "+<motion>   "+p
     "/
     ":
@@ -78,12 +99,12 @@
     "%
     <insertMode>^r<math-expression>
 
-### History trace:
+## History trace:
     :earlier 2m
     u  R
     esc == ^[
 
-### Marcro
+## Marcro
     (record a macro)
     q<register>
     (do the things)
@@ -94,21 +115,24 @@
 
     You can C-v select, then play macro
 
-### Mark Position
+## Mark Position
     ma mb mc  'a 'b 'c
 
-### Paste over
+## Paste over
     yiw  viwp
 
-### Upper/Lower Case:
+## Upper/Lower Case:
 
-    Visully select, then 'U' to Upper, 'u' to Lower
+    Visully select, 
+        'U' to Upper
+        'u' to Lower
+        '~' to Swapcase
 
-    viWU - Upper a word
-    viwu - Lower a word
-    g~~   gUU   guu
+    g~~  g~<motion>
+    gUU  gU<motion>
+    guu  gu<motion>
 
-### Plugins
+## Plugins
     - vundle - Plugin vimanager
 
     - nerdtree - file drawer
@@ -123,7 +147,7 @@
 
     - syntastic - syntax checker/linter
 
-### What is tmux
+## What is tmux
     Terminal multiplexer
     View and control multple consoles
     Preconfigure environments
