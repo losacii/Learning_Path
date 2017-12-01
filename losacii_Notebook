@@ -1,15 +1,3 @@
-vim Basics:
-    
-    " Motions:
-
-        h j k l
-        w e b W E B
-        gg    G    <number>gg
-
-
-Linux - commands
-
-windows
 
 Hard link and Soft link
 

@@ -113,6 +113,8 @@
     "%  - filename of the current file
     "#  - filename of the alternate file
 
+    ^ra  ^rb  ^r=  ^r/  ^r%
+    ^r.  - last insertion register  ^a
     v"+y   v"ay  "ap
     "+<motion>   "+p
     "*
@@ -167,7 +169,6 @@
         <C-x><C-k>  Dictionary
         <C-x><C-s>  Spelling
         <C-x><C-v>  vim commands
-        
 
 ## input weird characters
     In insert mode,  <C-k>a:  yields

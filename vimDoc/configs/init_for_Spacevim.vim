@@ -2,8 +2,15 @@
 let g:spacevim_enable_debug = 1
 let g:spacevim_realtime_leader_guide = 1
 
+"let g:neosnippet#snippets_directory="/home/vi/Documents/MyNeoSnippets"
+
+let g:spacevim_disabled_plugins = [
+\ [''],
+\ ]
+
 let g:spacevim_colorscheme = 'jellybeans'
 call SpaceVim#layers#load('default')
+
 call SpaceVim#layers#load('colorscheme')
 call SpaceVim#layers#load('autocomplete')
 call SpaceVim#layers#load('chinese')
@@ -121,7 +128,27 @@ let g:clang2_placeholder_prev = ''"}}}
         nnoremap ;U <esc>viw~ea
         inoremap ;u <esc>viw~
         nnoremap ;u <esc>viw~
-"}}}
+    "}}}
+    
+    " Jump Splits"{{{
+    nnoremap <c-s-l> <c-w>l
+    nnoremap <c-s-h> <c-w>h
+    nnoremap <c-s-j> <c-w>j
+    nnoremap <c-s-k> <c-w>k
+    "}}}
 
-au BufWinLeave * mkview
-au BufWinEnter * silent loadview
+    " Auto load and save folds"{{{
+    au BufWinLeave * mkview
+    au BufWinEnter * silent loadview
+    "}}}
+
+" Snippets
+nnoremap <leader>pymn :read ~/Documents/MyNeoSnippets/main.py<cr>
+
+
+
+
+
+
+
+" ------------------ endline ------------------
