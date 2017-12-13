@@ -1,4 +1,22 @@
+## sudo without password
+    sudo echo -e "vi ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 
+## Install wget git-core
+
+    sudo apt-get install git-core wget
+
+    sudo mv /etc/apt/sources.list /etc/apt/sources.list.bak
+
+    sudo wget -O /etc/apt/sources.list \
+    https://raw.githubusercontent.com/losacii/ubuntuMemo/master/ubunSettings/sourceList
+
+    sudo apt-get update
+    sudo apt-get upgrade
+
+## change .bashrc
+    ???
+    
+    
 cd ~/Documents
 git clone https://github.com/losacii/ubuntuMemo.git
 ln  ~/Documents/ubuntuMemo/vimDoc/configs/init_for_Spacevim.vim \
