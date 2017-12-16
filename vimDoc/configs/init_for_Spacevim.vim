@@ -105,8 +105,6 @@ let g:clang2_placeholder_prev = ''"}}}
     " Add Empty Lines"{{{
         inoremap <M-,> <esc>xi
         inoremap <M-.> <right><esc>xi
-        inoremap <c-j> <esc>o<esc>kA
-        inoremap <c-k> <esc>O<esc>jA
 "}}}
     " Tab operations:"{{{
         nnoremap <leader>to :tabnew<space>
