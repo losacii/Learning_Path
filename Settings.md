@@ -1,3 +1,6 @@
+## BASHRC
+  PS1='${debian_chroot:+($debian_chroot)}**\n[\t]**\[\033[01;32m\]**\u**\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$\n➤ '
+
 ## Linux, SpaceVim, ~/ .SpaceVim.d/init.vim
   备份：
   mv .SpaceVim.d/init.vim .SpaceVim.d/init.vim.bak
