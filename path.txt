@@ -1,17 +1,3 @@
-sudo apt install terminator
-
-sudo apt install python-pip
-pip install jedi
-
-sudo-with-no-passwd:
-
-  sudo visudo
-  root ALL=(ALL) ALL
-  losa ALL=(ALL) NOPASSWD: ALL
-
-  (then try 'sudo' commands,
-   you won't need to enter any passwd)
-
 could not get lock /var/lib/dpkg/lock:
 	sudo rm /var/cache/apt/archives/lock
 	sudo rm /var/lib/dpkg/lock
@@ -104,8 +90,6 @@ remote-desktop-copy-paste(copy below line by line):
   sudo apt-get install remmina remmina-plugin-rdp
 
 
-
-
 search: language support:
   click 'install'
   search 'input method', fcitx
@@ -121,20 +105,9 @@ samba:
   share a disk, set user
 
 
-sudo vi /etc/apt/sources.list
-
-ADD:
-  deb http://us.archive.ubuntu.com/ubuntu trusty main multiverse
-	  to bottom.
-		  Then apt-get update
-
-
 install opencv3.3.0:
   http://docs.opencv.org/trunk/d7/d9f/tutorial_linux_install.html
 
-
-vimrc:
-  :set paste
 
 for vim: Completely Swap 'Caps Lok' and "ESC":
   Drop this file in your home directory:
@@ -151,12 +124,6 @@ for vim: Completely Swap 'Caps Lok' and "ESC":
   Done! you'll be twice as efficient in Vim. Who needs caps lock anyway?
   * this is from: http://vim.wikia.com/wiki/VimTip166
 
-vim-Plugin fugitive:
-  go to bundle
-  git clone .....
-  edit .vimrc
-  launch vim
-  :PluginInstall
 
 PluginClean
 
@@ -164,11 +131,6 @@ PluginClean
 'fugitive test'
 https://github.com/tpope/vim-fugitive/blob/master/doc/fugitive.txt
 
-install terminator:
-  settign: putty Style (right click to paste!!)
-
-init.py xmodmap
-1874x1024
 
 how to move folder:
     mv foldera/* folderb/
