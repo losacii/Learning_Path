@@ -10,4 +10,14 @@
   wget -O _vsvimrc \
   https://raw.githubusercontent.com/losacii/ubuntuMemo/master/vimDoc/configs/vsVimrc
   
-## >>
+## alias: Windows
+    alias reboot=shutdown -r -t 0
+    alias godown=shutdown -s -t 0
+
+    alias shpi=ssh pi@raspberrypi
+    alias unalias=alias /d $1
+    alias vi=vim $*
+
+## alias: Linux
+    alias ip='ifconfig | grep inet'
+    alias cdg='cd ~/Documents/gitDocs'
