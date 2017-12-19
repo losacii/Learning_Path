@@ -28,5 +28,5 @@ echo ... Done!
 
 echo -e "\nAlternative way:\n... Get and replacing  local: ~/.SpaceVim.d/init.vim"
 wget -O ~/.SpaceVim.d/init.vim \
-https://raw.githubusercontent.com/losacii/ubuntuMemo/master/vimDoc/configs/initForLinux.vim
+https://raw.githubusercontent.com/losacii/ubuntuMemo/master/vimDoc/configs/init_for_Spacevim.vim
 echo ... Done!
