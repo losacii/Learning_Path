@@ -1,0 +1,17 @@
+" Sync:
+" ln ~/.vimrc ~/Documents/ubuntuMemo/vimDoc/configs/.vimrc_for_vimtiny
+" Download Sync:
+" wget -O ******** .vimrc
+" 
+
+set nu rnu          " line numbers
+set autoindent
+set smartindent
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set shiftround
+set expandtab
+set expandtab
+set hlsearch
+set ic              " Ignore Case
