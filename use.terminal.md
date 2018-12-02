@@ -12,3 +12,6 @@
     C-u      | Delete input
     C-c      | Cancel operation
     C-a  C-e | move cursor to begin/end
+
+    C-[aebf]  : move cursor
+    C-[uwk]   : delete

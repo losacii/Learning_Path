@@ -1,6 +1,15 @@
 ### filepath: /home/vi/Documents/ubuntuMemo/spacevim_notebook.md
 ### Web reference: https://spacevim.org/grep-on-the-fly-in-spacevim/
 
+### Open multipule files
+    vim -o3 f1 f2    : open f1 f2 and emptyfile
+    vim -O
+    vim -p           : with tabs
+
+### 布局保存-恢复
+  :mksession <fp.vim>
+  vim -S <fp.vim>
+
 ### gf  : Go to this file
     ^o  : Go back
 
@@ -31,10 +40,10 @@
   Time Stamps:   dd  dt  df  lmod 
   File Path:     path  fname  bname
 
-### surround
+### surround: ys<motion>
   yss"
   ys3e(
-  cs"}
+  cs"}    : change surround example
 
 ### multipule select
   <space>se
@@ -47,8 +56,8 @@
   <space>sS              : Search in current file
   SPC s g G              : Open Flygrep
 
-  <C-j>   <C-k>      
-  <tab>   <shift>+<tab>  : Down, up
+  Ctrl+[jk]
+  <tab> <shift>+<tab>    : Down, up
 
   <C-a> <C-e>  :beginning, end
   <C-k> <C-u>  :remove line
@@ -61,6 +70,7 @@
   sv sg
 
 ### Splited windows
+  :38vs newfile      :55sp newfile
   <space> [1-9]
   <space> w <tab>
   <space> w d
@@ -172,4 +182,22 @@
 ### Template, read in a file
     5r <filepath>    : read file below line 5
   
+### Spacevim: Jump (EasyMotion)
+
+    <leader><leader>[sfF]  : jump to char
+    <leader><leader>w      : jump to word
+
+    w [Fsf]  eE  bB j k nN ~ F向左 s两边 f向右
+
+    SPC j j   : to a char
+    SPC j u   : to an url
+
+    :h easymotion >> custom keys
+        map ;i <Plug>(easymotion-s)
+
+### Line number
+    SPC t n
+
+### 断行
+    gq<motion>    ⇒  gqq  gqip  gqG
 
