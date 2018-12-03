@@ -1,5 +1,4 @@
 ## Computer:
-
   Reboot
   del('.')
   Boot

@@ -49,6 +49,7 @@ call SpaceVim#end()
   nnoremap ;vr :vertical resize<space>
   nnoremap ;f <space>jj
   map ;i <Plug>(easymotion-s)
+  set pastetoggle=<F9>
 
 " Color themes
   nnoremap ;cc :colorscheme<space>
@@ -112,12 +113,23 @@ call SpaceVim#end()
   nnoremap ;gs <esc>:! git config --global user.name "losacii" && git config --global user.email 'losacii5@gmail.com'
   nnoremap ;sv <esc>:! cp % ~/Documents/ubuntuMemo/vimDoc/configs/init_for_Spacevim.vim
 
-" au BufWinLeave * mkview
-" au BufWinEnter * silent loadview
-
+" Temporary Shortcuts
 nnoremap ;e ddmaggP'a
 nnoremap ;d ddmaGp'a
 
 " Make the 81st column stand out
 highlight ColorColumn ctermbg=magenta
 call matchadd('ColorColumn', '\%81v', 100)
+
+" mkview
+augroup AutoSaveFolds
+  autocmd!
+  " view files are about 500 bytes
+  " bufleave but not bufwinleave captures closing 2nd tab
+  " nested is needed by bufwrite* (if triggered via other autocmd)
+  autocmd BufWinLeave,BufLeave,BufWritePost ?* nested silent! mkview!
+  autocmd BufWinEnter ?* silent! loadview
+augroup end
+
+set viewoptions=folds,cursor
+set sessionoptions=folds
