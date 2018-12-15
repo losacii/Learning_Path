@@ -1,7 +1,7 @@
 {
-  "server":"35.221.98.62",
-  "server_port":9857,
-  "password":"googleppr007",
+  "server":"<xx.xx.xx.xx>",
+  "server_port":<int>,
+  "password":"<passwd>",
   "local_address":"127.0.0.1",
   "local_port":1080,
   "timeout":600,
