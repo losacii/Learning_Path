@@ -10,9 +10,9 @@ Step 1: sudo apt-get install shadowsocks
 Step 2: nohub sudo sslocal -c /etc/shadowsocks.json &
 
     {
-      "server":"35.221.98.62",
-      "server_port":9857,
-      "password":"googleppr007",
+      "server":"xx.xx.xxx.xxx",
+      "server_port":8388,
+      "password":"<password>",
       "local_address":"127.0.0.1",
       "local_port":1080,
       "timeout":600,
