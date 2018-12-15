@@ -42,6 +42,7 @@ call SpaceVim#end()
 " vim:set et sw=2 cc=80:
 
 " * * * * * * * * * * * * * * User Settings * * * * * * * * * * * * * * * * * *
+" General Settings
   set ic
   set path+=**
   vnoremap <F2> "+y
@@ -122,14 +123,16 @@ highlight ColorColumn ctermbg=magenta
 call matchadd('ColorColumn', '\%81v', 100)
 
 " mkview
-augroup AutoSaveFolds
-  autocmd!
-  " view files are about 500 bytes
-  " bufleave but not bufwinleave captures closing 2nd tab
-  " nested is needed by bufwrite* (if triggered via other autocmd)
-  autocmd BufWinLeave,BufLeave,BufWritePost ?* nested silent! mkview!
-  autocmd BufWinEnter ?* silent! loadview
-augroup end
+  augroup AutoSaveFolds
+    autocmd!
+    " view files are about 500 bytes
+    " bufleave but not bufwinleave captures closing 2nd tab
+    " nested is needed by bufwrite* (if triggered via other autocmd)
+    autocmd BufWinLeave,BufLeave,BufWritePost ?* nested silent! mkview!
+    autocmd BufWinEnter ?* silent! loadview
+  augroup end
 
-set viewoptions=folds,cursor
-set sessionoptions=folds
+  set viewoptions=folds,cursor
+  set sessionoptions=folds
+
+

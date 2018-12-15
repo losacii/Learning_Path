@@ -19,11 +19,17 @@
   get it from github:
   wget -O ~/.SpaceVim/config/main.vim https://www.github.com/.......
 
+### Folds
+
+  zf<motion>
+  za  zc zo zd (toggle, close, open, delete)
+
+
+
   sychronize to git folder:
 
   link it with ;rc shotcut
   nnoremap <leader>rc :tabnew ~/.SpaceVim/config/main.vim<cr>
-
 
 ### <spc> fvd  >>  layer denite
   Open layer file with <space>fvd
@@ -107,7 +113,6 @@
   0       : yank reg
   "[1~9]  : history regs
   "[a-z]  : named regs
-
 
 ### 大小写
   gUU   gUiw

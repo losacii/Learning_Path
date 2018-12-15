@@ -114,31 +114,38 @@ if ! shopt -oq posix; then
 fi
 
 # Personal added contents
-# Plus PS1-stuff
 # PS1='${debian_chroot:+($debian_chroot)}\n\[\033[01;33m\]╭➛ \[\033[00m\][\t]\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$\n\[\033[01;33m\]╰➝ \[\033[00m\]'
 
 alias vi='vim'
 alias vt='vim.tiny'
+
 alias sbash='source ~/.bashrc'
 alias ebash='vi ~/.bashrc'
+alias editcontact="vim ~/Smb/contacts/work.txt"  # editcontact : 编辑通讯录
+alias note="vim ~/.tmpnote.md"  # note : 近期文件
 
+alias a="cd -"
+alias x="exit"
 
 alias cdd='cd ~/Documents && ls'  # cdd
 alias cdg='cd ~/Documents/ubuntuMemo && ls'  # cdg
-alias ebash="vim ~/.bashrc"  # bashrc : 编辑bashrc
-alias editcontact="vim ~/Smb/contacts/work.txt"  # editcontact : 编辑通讯录
-alias findcontact="cat ~/Smb/contacts/work.txt | grep "  # findcontact : 通讯录
-alias ip='ifconfig | grep inet'  # ip : 显示 ip
-alias note="vim ~/.tmpnote.md"  # note : 近期文件
-alias ping='ping -c 3 -s 8 -i 0.8'
-alias sbash='source ~/.bashrc'  # sbasrh : 更新生效
-alias scrkey="~/Program/screenkey/screenkey"  # scrkey
+
 alias sshgc0='ssh -i Program/sshkeys/gcp1 vi@35.243.98.151'
 alias sshgc1='ssh -i Program/sshkeys/gcp1 vi@35.221.98.62'
-alias sshpi='ssh pi@192.168.20.85'
+alias sshpi='ssh pi@192.168.20.7'
+
+alias findcontact="cat ~/Smb/contacts/work.txt | grep "  # findcontact : 通讯录
+
+alias godown='shutdown -h 0'
+
+alias ip='ifconfig | grep inet'  # ip : 显示 ip
+
+alias ping='ping -c 3 -s 8 -i 0.8'
+
+alias scrkey="~/Program/screenkey/screenkey"  # scrkey
+
 alias worknote='vim ~/Documents/work/memo.txt'  # worknote : 工作任务
 alias workpeek='cat ~/Documents/work/memo.txt'  # 工作任务编辑
-alias a="cd -"
 
 cat ~/.tmpnote.md
 
